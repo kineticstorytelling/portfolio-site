@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Hero from './pages/Hero.jsx'
+import Services from './pages/Services'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <body>
         <Hero />
+        <Services />
       </body>
 
     </>
