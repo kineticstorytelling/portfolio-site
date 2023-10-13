@@ -9,7 +9,13 @@ const Social = () => {
             </div>
             <span>Facebook</span>
         </div>
-
+        
+        <div className="button">
+               <div className="icon">
+                  <a href="https://www.linkedin.com/in/luke-nam-ab520369/"><FontAwesomeIcon icon={faLinkedin} /></a>
+               </div> 
+               <span>Linkedin</span>
+            </div> 
     </div>
   )
 }
