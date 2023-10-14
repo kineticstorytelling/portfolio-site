@@ -23,6 +23,22 @@ const Social = () => {
             </div>  
             <span>Twitter</span>
         </div>
+        
+        <div className="button">
+            <div className="icon">
+                <a href="https://www.instagram.com/lukasnam/"><FontAwesomeIcon icon={faInstagram} /></a>
+            </div>  
+            <span>Instagram</span>
+        </div>
+
+        <div className="button">
+            <div className="icon">
+                <a href="https://github.com/kineticstorytelling"><FontAwesomeIcon icon={faGithub} /></a>
+            </div>  
+            <span>Github</span>
+        </div>
+
+
     </div>
     
   )
