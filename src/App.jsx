@@ -8,8 +8,12 @@ function App() {
   return (
     <>
       <body>
-        <Hero />
-        <Services />
+        <div className="App">
+          <div className="content">
+          <Hero />
+          <Services />
+          </div>
+        </div>
       </body>
 
     </>
