@@ -38,6 +38,13 @@ const Social = () => {
             <span>Github</span>
         </div>
 
+        <div className="button">
+            <div className="icon">
+                <a href="https://medium.com/@kineticstorytelling"><FontAwesomeIcon icon={faMedium} /></a>
+            </div>  
+            <span>Medium</span>
+        </div>
+
 
     </div>
     
