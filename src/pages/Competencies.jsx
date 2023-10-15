@@ -1,8 +1,13 @@
 import React from 'react'
+import { Accordion, AccordionSummary, AccordionDetails, Typography } from '@mui/material'
 
 const Competencies = () => {
   return (
-    <div>Competencies</div>
+    <>
+    <section className="competencies">
+        <h2 className='section_title'></h2>
+    </section>
+    </>
   )
 }
 
