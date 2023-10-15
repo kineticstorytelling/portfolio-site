@@ -1,7 +1,7 @@
 import './App.css'
 import Hero from './pages/Hero.tsx'
 import Services from './pages/Services.jsx'
-import Social from './components/Social.jsx'
+import Social from './components/Social.tsx'
 
 
 function App() {

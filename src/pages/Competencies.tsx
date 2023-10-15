@@ -1,11 +1,31 @@
-import React from 'react'
 import { Accordion, AccordionSummary, AccordionDetails, Typography } from '@mui/material'
+import { ExpandMore } from "@mui/icons-material"
 
 const Competencies = () => {
   return (
     <>
     <section className="competencies">
-        <h2 className='section_title section_title-competencies'></h2>
+        <h2 className='competencies__title competencies__title'>Competencies</h2>
+        <div className="comptencies__category">
+
+          <div className="comptencies__category--label"><h3>Languages</h3></div>
+              <Accordion className="competencies__accordion-item  "sx={{ 
+                    backgroundColor: "rgba(195, 196, 197, 0.466)",
+                    // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
+                    boxShadow: 3,
+                    borderBottom: 'none'
+                }} >
+                <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
+                    <ExpandMore />
+                }>
+                    <img src={require("../assets/htmllogo.png")} alt="html" />
+                    <Typography className="competencies__accordion-header competencies__accordion"><h4>HTML</h4></Typography>
+                </AccordionSummary>
+                <AccordionDetails >
+                    <img src={require("../assets/sass-example.gif")} alt="CSS" />
+                </AccordionDetails>
+            </Accordion>
+        </div>
     </section>
     </>
   )
