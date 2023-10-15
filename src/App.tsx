@@ -1,4 +1,5 @@
-import './App.css'
+// import './App.css'
+import './_app.scss'
 import Navbar from './layout/Navbar.tsx'
 import Social from './components/Social.tsx'
 import Hero from './pages/Hero.tsx'
