@@ -1,4 +1,3 @@
-import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faLinkedin, } from '@fortawesome/react-fontawesome'
 
@@ -7,7 +6,7 @@ const Social = () => {
     <div className="social_sidebar">
         <div className="button">
             <div className="icon">
-                <a href="https://www.facebook.com/luke.nam.1"></a>
+                <a href="https://www.facebook.com/luke.nam.1"><FontAwesomeIcon icon={faFacebook} /></a>
             </div>
             <span>Facebook</span>
         </div>

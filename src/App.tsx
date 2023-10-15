@@ -1,8 +1,7 @@
-import { useState } from 'react'
 import './App.css'
-import Hero from './pages/Hero.jsx'
-import Services from './pages/Services'
-import Social from './components/Social'
+import Hero from './pages/Hero.tsx'
+import Services from './pages/Services.jsx'
+import Social from './components/Social.jsx'
 
 
 function App() {
