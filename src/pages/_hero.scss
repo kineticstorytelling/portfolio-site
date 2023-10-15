@@ -1,0 +1,31 @@
+
+.hero__title--hero {
+    font-family: var(--ff-primary);
+    font-size: 8vh;
+    font-weight: 600;
+    text-align: left;
+    top: 35vh;
+    right: 15vw;
+  }
+  .hero__title--name{
+    right: 15vw;
+    bottom: 44vh;
+    font-family: var(--ff-secondary);
+    font-size: 70px;
+    text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+  }
+  .hero__subtitle--hero{
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    text-align: left;
+      bottom: 42vh;
+      right: 15vw;
+  }
+  .hero__subtitle--secondary{
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    text-align: left;
+    margin-top: 2vh;
+    right: 15vw;
+    bottom: 38vh;
+  }

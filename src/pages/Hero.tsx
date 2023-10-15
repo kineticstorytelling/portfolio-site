@@ -1,4 +1,4 @@
-
+import './_hero.scss'
 
 const Hero = () => {
   return (

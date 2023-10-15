@@ -1,5 +1,6 @@
 import { Accordion, AccordionSummary, AccordionDetails, Typography } from '@mui/material'
 import { ExpandMore } from "@mui/icons-material"
+import './_competencies.scss'
 
 const Competencies = () => {
   return (
