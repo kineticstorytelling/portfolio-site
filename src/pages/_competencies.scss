@@ -30,6 +30,14 @@
       }
 }
 
+.competencies__accordion--header::after{
+    font: var(--fa-font-solid);
+    transition: all .4s ease;
+    // content: "\f107";
+    position: absolute;
+    // left: 70%;
+}
+
 .competencies__accordion--item{
     width: 60%;
     margin: auto;
