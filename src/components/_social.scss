@@ -11,4 +11,11 @@
     overflow: hidden;
     color: #93969b;
     background: #eaebeb;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+    transition: all 0.3s ease-out;
+    position: sticky right;
+    right: 48vw;
+    top: 50vh;
 }
