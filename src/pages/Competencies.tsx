@@ -15,7 +15,7 @@ const Competencies = () => {
                     boxShadow: 3,
                     borderBottom: 'none'
                 }} >
-                <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
+                <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                     <ExpandMore />
                 }>
                     <img src={"..htmllogo.png"} alt="html" />
