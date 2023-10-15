@@ -1,8 +1,9 @@
 import './App.css'
-import Hero from './pages/Hero.tsx'
-import Services from './pages/Services.jsx'
+import Navbar from './layout/Navbar.tsx'
 import Social from './components/Social.tsx'
-import Competencies from './pages/Competencies.tsx'
+import Hero from './pages/Hero.tsx'
+// import Services from './pages/Services.jsx'
+// import Competencies from './pages/Competencies.tsx'
 
 
 function App() {
@@ -11,11 +12,12 @@ function App() {
     <>
       <body>
         <div className="App">
+          <Navbar />
           <Social />
           <div className="content">
           <Hero />
-          <Services />
-          <Competencies />
+          {/* <Services /> */}
+          {/* <Competencies /> */}
           </div>
         </div>
       </body>

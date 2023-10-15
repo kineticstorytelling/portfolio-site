@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    list-style: none;
+    
+  }
+  $base-color: blue;
+:root{
+  --clr-dark :#141418;
+  --clr-light: #91919e66;
+  --clr-accent: #25DAC5;
