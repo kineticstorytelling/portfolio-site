@@ -11,3 +11,26 @@
     margin: 10% 0 0 0;
     text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288); 
 }
+
+.competencies__accordion--header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2% 0 2% 5%;
+      h3{
+        padding: 0 0 0 5%;
+      }
+      :hover{
+        cursor: pointer;
+      }
+      img{
+        padding: 0 20px 0 0;
+        height: 50px;
+        width: 70px
+      }
+}
+
+.competencies__accordion--item{
+    width: 60%;
+    margin: auto;
+}

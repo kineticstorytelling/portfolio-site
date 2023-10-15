@@ -19,7 +19,7 @@ const Competencies = () => {
                     <ExpandMore />
                 }>
                     <img src={"..htmllogo.png"} alt="html" />
-                    <Typography className="competencies__accordion-header competencies__accordion"><h4>HTML</h4></Typography>
+                    <Typography className="competencies__accordion competencies__accordion--header"><h4>HTML</h4></Typography>
                 </AccordionSummary>
                 <AccordionDetails >
                     <img src={".sass-example.gif"} alt="CSS" />
