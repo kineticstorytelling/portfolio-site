@@ -88,6 +88,11 @@ const Competencies = () => {
                     </AccordionDetails>
             </Accordion>
         </div>
+              <br />
+      <div className="competencies__category">
+        <div className="competencies__category-label"><h3>Frameworks and Libraries</h3></div>
+            
+      </div>  
     </section>
     </>
   )
