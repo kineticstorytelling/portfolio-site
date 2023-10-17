@@ -254,11 +254,11 @@ const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("../assets/WordPress_blue_logo.png")} alt="Wordpress" />
+                                <img src={"../assets/WordPress_blue_logo.png"} alt="Wordpress" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>Wordpress</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("../assets/elementor-example.gif")} alt="Wordpress" />
+                            <img src={"../assets/elementor-example.gif"} alt="Wordpress" />
                             </AccordionDetails>
                             </Accordion>
                             <Accordion className="competencies__accordion-item  "sx={{ 
@@ -268,11 +268,11 @@ const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("../assets/Shopify-logo.png")} alt="Shopify" />
+                                <img src={"../assets/Shopify-logo.png"} alt="Shopify" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>Shopify</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("../assets/elementor-example.gif")} alt="Shopify" />
+                            <img src={"../assets/elementor-example.gif"} alt="Shopify" />
                             </AccordionDetails>
                             </Accordion>
                             <Accordion className="competencies__accordion-item  "sx={{ 
@@ -282,11 +282,11 @@ const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("../assets/Elementor-logo.png")} alt="Elementor" />
+                                <img src={"../assets/Elementor-logo.png"} alt="Elementor" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>Elementor</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("../assets/elementor-example.gif")} alt="Elementor" />
+                            <img src={"../assets/elementor-example.gif"} alt="Elementor" />
                             </AccordionDetails>
                             </Accordion>
                             <Accordion className="competencies__accordion-item  "sx={{ 
@@ -296,11 +296,11 @@ const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("../assets/Figma-logo.png")} alt="Figma" />
+                                <img src={"../assets/Figma-logo.png"} alt="Figma" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>Figma</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("../assets/figma-example.gif")} alt="Figma" />
+                            <img src={"../assets/figma-example.gif"} alt="Figma" />
                             </AccordionDetails>
                             </Accordion>
                             <Accordion className="competencies__accordion-item  "sx={{ 
@@ -310,11 +310,11 @@ const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("../assets/AdobeXD-logo.png")} alt="Adobexd" />
+                                <img src={"../assets/AdobeXD-logo.png"} alt="Adobexd" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>Adobe XD</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("../assets/elementor-example.gif")} alt="Adobexd" />
+                            <img src={"../assets/elementor-example.gif"} alt="Adobexd" />
                             </AccordionDetails>
                             </Accordion>
                             <Accordion className="competencies__accordion-item  "sx={{ 
@@ -324,11 +324,11 @@ const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("../assets/Adobe_Photoshop_logo.png")} alt="AdobePhotoshop" />
+                                <img src={"../assets/Adobe_Photoshop_logo.png"} alt="AdobePhotoshop" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>Adobe Photoshop</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("../assets/elementor-example.gif")} alt="Adobe photoshop" />
+                            <img src={"../assets/elementor-example.gif"} alt="Adobe photoshop" />
                             </AccordionDetails>
                             </Accordion>
 
