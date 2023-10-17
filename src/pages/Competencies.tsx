@@ -176,13 +176,13 @@ const Competencies = () => {
                     <ExpandMore />
                 }>
                     <img src={"../assets/nodejs-1-logo1.png"} alt="NextJS" />
-                    <Typography className="competencies__accordion-header competencies__accordion"><h4>NodeJS</h4></Typography>
+                    <Typography className="competencies__accordion-header competencies__accordion"><h4>NextJS</h4></Typography>
                 </AccordionSummary>
                 <AccordionDetails >
                 <img src={"../assets/html-example.gif"} alt="NextJS" />
                 </AccordionDetails>
             </Accordion>
-            
+
             <Accordion className="competencies__accordion-item  "sx={{ 
                     backgroundColor: "rgba(195, 196, 197, 0.466)",
                     boxShadow: 3
@@ -190,11 +190,11 @@ const Competencies = () => {
                 <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                     <ExpandMore />
                 }>
-                    <img src={"../assets/nodejs-1-logo1.png"} alt="NodeJS" />
-                    <Typography className="competencies__accordion-header competencies__accordion"><h4>NodeJS</h4></Typography>
+                    <img src={"../assets/nodejs-1-logo1.png"} alt="ExpressJS" />
+                    <Typography className="competencies__accordion-header competencies__accordion"><h4>ExpressJS</h4></Typography>
                 </AccordionSummary>
                 <AccordionDetails >
-                <img src={"../assets/html-example.gif"} alt="NodeJS" />
+                <img src={"../assets/html-example.gif"} alt="ExpressJS" />
                 </AccordionDetails>
             </Accordion>
 
@@ -235,11 +235,11 @@ const Competencies = () => {
                 <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                     <ExpandMore />
                 }>
-                    <img src={"../assets/Postgresql_elephant.svg.png"} alt="Jquery" />
-                    <Typography className="competencies__accordion-header competencies__accordion"><h4>PostgresSQL</h4></Typography>
+                    <img src={"../assets/Postgresql_elephant.svg.png"} alt="PostgreSQL" />
+                    <Typography className="competencies__accordion-header competencies__accordion"><h4>PostgreSQL</h4></Typography>
                 </AccordionSummary>
                 <AccordionDetails >
-                <img src={"../assets/javascript-example.gif"} alt="jquery" />
+                <img src={"../assets/javascript-example.gif"} alt="PostgreSQL" />
                 </AccordionDetails>
             </Accordion>
       </div>  
