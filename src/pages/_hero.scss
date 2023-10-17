@@ -50,5 +50,12 @@
         top: 40vh;
         font-size: 3rem;
       }
-    
+    .hero__title--name{
+    left: 33vw;
+    top: 50vh;
+    font-family: var(--ff-secondary);
+    font-size: 4rem;
+    text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+
+    }    
   }
