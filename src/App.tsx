@@ -2,8 +2,8 @@ import './_app.scss'
 import Navbar from './layout/Navbar.tsx'
 import Social from './components/Social.tsx'
 import Hero from './pages/Hero.tsx'
-// import Services from './pages/Services.jsx'
-// import Competencies from './pages/Competencies.tsx'
+import Services from './pages/Services.jsx'
+import Competencies from './pages/Competencies.tsx'
 
 
 function App() {
@@ -16,8 +16,8 @@ function App() {
           <Social />
           <div className="content">
           <Hero />
-          {/* <Services /> */}
-          {/* <Competencies /> */}
+          <Services />
+          <Competencies />
           </div>
         </div>
       </body>

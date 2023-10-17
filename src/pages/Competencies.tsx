@@ -1,8 +1,11 @@
-import { Accordion, AccordionSummary, AccordionDetails, Typography } from '@mui/material'
-import { ExpandMore } from "@mui/icons-material"
+import Accordion from '@mui/material/Accordion'
+import Typography from '@mui/material/Typography'
+import AccordionSummary from '@mui/material/AccordionSummary'
+import AccordionDetails from '@mui/material/AccordionDetails'
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import './_competencies.scss'
 
-const Competencies = () => {
+export default function Competencies () {
   return (
     <>
         <section className="competencies">
@@ -11,25 +14,25 @@ const Competencies = () => {
 
               <div className="competencies__category--label"><h3>Languages</h3></div>
                   
-                  <Accordion className="competencies__accordion--item  "sx={{ 
+                   <Accordion className="competencies__accordion--item" sx={{ 
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
                         // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                         boxShadow: 3,
                         borderBottom: 'none'
                     }} >
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
-                        <ExpandMore />
+                        <ExpandMoreIcon />
                     }>
-                        <img src={"..htmllogo.png"} alt="html" />
+                        <img src={"src/assets/htmllogo.png"} alt="html" />
                         <Typography className="competencies__accordion competencies__accordion--header"><h4>HTML</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
-                        <img src={".sass-example.gif"} alt="CSS" />
+                        <img src={"/src/assets/sass-example.gif"} alt="CSS" />
                     </AccordionDetails>
-                </Accordion>
+                </Accordion> 
 
                 
-                <Accordion className="competencies__accordion-item  "sx={{ 
+                {/* <Accordion className="competencies__accordion-item  "sx={{ 
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
                         boxShadow: 3
                                 }} >
@@ -87,10 +90,10 @@ const Competencies = () => {
                     <AccordionDetails >
                     <img src={"../assets/javascript-example.gif"} alt="typescript" />
                     </AccordionDetails>
-                </Accordion>
+                </Accordion> */}
             </div>
                   <br />
-          <div className="competencies__category">
+          {/* <div className="competencies__category">
             <div className="competencies__category-label"><h3>Frameworks and Libraries</h3></div>
                 
                 <Accordion className="competencies__accordion-item  "sx={{ 
@@ -350,13 +353,13 @@ const Competencies = () => {
                       <AccordionDetails >
                       <img src={"../assets/elementor-example.gif"} alt="Adobe photoshop" />
                       </AccordionDetails>
-              </Accordion>
+              </Accordion> */}
 
-            </div>              
-          </div>  
+            {/* </div>               */}
+          {/* </div>   */}
         </section>
     </>
   )
 }
 
-export default Competencies
+// export default Competencies
