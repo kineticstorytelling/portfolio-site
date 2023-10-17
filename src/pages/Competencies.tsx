@@ -98,11 +98,11 @@ const Competencies = () => {
                 <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                     <ExpandMore />
                 }>
-                    <img src={require("../assets/SASS_Logo_mod1.png")} alt="SASS" />
+                    <img src={"../assets/SASS_Logo_mod1.png"} alt="SASS" />
                     <Typography className="competencies__accordion-header competencies__accordion"><h4>SASS</h4></Typography>
                 </AccordionSummary>
                 <AccordionDetails >
-                <img src={require("../assets/sass-example.gif")} alt="SASS" />
+                <img src={"../assets/sass-example.gif"} alt="SASS" />
                 </AccordionDetails>
             </Accordion>
                 
@@ -113,11 +113,11 @@ const Competencies = () => {
                 <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                     <ExpandMore />
                 }>
-                    <img src={require("../assets/bootstrap-logo_1.png")} alt="Bootstrap" />
+                    <img src={"../assets/bootstrap-logo_1.png"} alt="Bootstrap" />
                     <Typography className="competencies__accordion-header competencies__accordion"><h4>Bootstrap</h4></Typography>
                 </AccordionSummary>
                 <AccordionDetails >
-                <img src={require("../assets/javascript-example.gif")} alt="Bootstrap" />
+                <img src={"../assets/javascript-example.gif"} alt="Bootstrap" />
                 </AccordionDetails>
             </Accordion>
       </div>  
