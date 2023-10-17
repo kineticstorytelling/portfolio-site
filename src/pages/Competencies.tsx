@@ -248,89 +248,94 @@ const Competencies = () => {
             <div className="competencies__category">
             <div className="competencies__category-label"><h3>CMS and Design</h3></div>
                 <Accordion className="competencies__accordion-item  "sx={{ 
-                                backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                boxShadow: 3
-                            }} >
-                            <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
-                                <ExpandMore />
-                            }>
-                                <img src={"../assets/WordPress_blue_logo.png"} alt="Wordpress" />
-                                <Typography className="competencies__accordion-header competencies__accordion"><h4>Wordpress</h4></Typography>
-                            </AccordionSummary>
-                            <AccordionDetails >
-                            <img src={"../assets/elementor-example.gif"} alt="Wordpress" />
-                            </AccordionDetails>
-                            </Accordion>
-                            <Accordion className="competencies__accordion-item  "sx={{ 
-                                backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                boxShadow: 3
-                            }} >
-                            <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
-                                <ExpandMore />
-                            }>
-                                <img src={"../assets/Shopify-logo.png"} alt="Shopify" />
-                                <Typography className="competencies__accordion-header competencies__accordion"><h4>Shopify</h4></Typography>
-                            </AccordionSummary>
-                            <AccordionDetails >
-                            <img src={"../assets/elementor-example.gif"} alt="Shopify" />
-                            </AccordionDetails>
-                            </Accordion>
-                            <Accordion className="competencies__accordion-item  "sx={{ 
-                                backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                boxShadow: 3
-                            }} >
-                            <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
-                                <ExpandMore />
-                            }>
-                                <img src={"../assets/Elementor-logo.png"} alt="Elementor" />
-                                <Typography className="competencies__accordion-header competencies__accordion"><h4>Elementor</h4></Typography>
-                            </AccordionSummary>
-                            <AccordionDetails >
-                            <img src={"../assets/elementor-example.gif"} alt="Elementor" />
-                            </AccordionDetails>
-                            </Accordion>
-                            <Accordion className="competencies__accordion-item  "sx={{ 
-                                backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                boxShadow: 3
-                            }} >
-                            <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
-                                <ExpandMore />
-                            }>
-                                <img src={"../assets/Figma-logo.png"} alt="Figma" />
-                                <Typography className="competencies__accordion-header competencies__accordion"><h4>Figma</h4></Typography>
-                            </AccordionSummary>
-                            <AccordionDetails >
-                            <img src={"../assets/figma-example.gif"} alt="Figma" />
-                            </AccordionDetails>
-                            </Accordion>
-                            <Accordion className="competencies__accordion-item  "sx={{ 
-                                backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                boxShadow: 3
-                            }} >
-                            <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
-                                <ExpandMore />
-                            }>
-                                <img src={"../assets/AdobeXD-logo.png"} alt="Adobexd" />
-                                <Typography className="competencies__accordion-header competencies__accordion"><h4>Adobe XD</h4></Typography>
-                            </AccordionSummary>
-                            <AccordionDetails >
-                            <img src={"../assets/elementor-example.gif"} alt="Adobexd" />
-                            </AccordionDetails>
-                            </Accordion>
-                            <Accordion className="competencies__accordion-item  "sx={{ 
-                                backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                boxShadow: 3
-                         }} >
-                            <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
-                                <ExpandMore />
-                            }>
-                                <img src={"../assets/Adobe_Photoshop_logo.png"} alt="AdobePhotoshop" />
-                                <Typography className="competencies__accordion-header competencies__accordion"><h4>Adobe Photoshop</h4></Typography>
-                            </AccordionSummary>
-                            <AccordionDetails >
-                            <img src={"../assets/elementor-example.gif"} alt="Adobe photoshop" />
-                            </AccordionDetails>
-                            </Accordion>
+                          backgroundColor: "rgba(195, 196, 197, 0.466)",
+                          boxShadow: 3
+                      }} >
+                      <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
+                          <ExpandMore />
+                      }>
+                          <img src={"../assets/WordPress_blue_logo.png"} alt="Wordpress" />
+                          <Typography className="competencies__accordion-header competencies__accordion"><h4>Wordpress</h4></Typography>
+                      </AccordionSummary>
+                      <AccordionDetails >
+                      <img src={"../assets/elementor-example.gif"} alt="Wordpress" />
+                      </AccordionDetails>
+                 </Accordion>
+                 
+                 <Accordion className="competencies__accordion-item  "sx={{ 
+                          backgroundColor: "rgba(195, 196, 197, 0.466)",
+                          boxShadow: 3
+                      }} >
+                      <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
+                          <ExpandMore />
+                      }>
+                          <img src={"../assets/Shopify-logo.png"} alt="Shopify" />
+                          <Typography className="competencies__accordion-header competencies__accordion"><h4>Shopify</h4></Typography>
+                      </AccordionSummary>
+                      <AccordionDetails >
+                      <img src={"../assets/elementor-example.gif"} alt="Shopify" />
+                      </AccordionDetails>
+              </Accordion>
+              
+              <Accordion className="competencies__accordion-item  "sx={{ 
+                          backgroundColor: "rgba(195, 196, 197, 0.466)",
+                          boxShadow: 3
+                      }} >
+                      <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
+                          <ExpandMore />
+                      }>
+                          <img src={"../assets/Elementor-logo.png"} alt="Elementor" />
+                          <Typography className="competencies__accordion-header competencies__accordion"><h4>Elementor</h4></Typography>
+                      </AccordionSummary>
+                      <AccordionDetails >
+                      <img src={"../assets/elementor-example.gif"} alt="Elementor" />
+                      </AccordionDetails>
+              </Accordion>
+              
+              <Accordion className="competencies__accordion-item  "sx={{ 
+                          backgroundColor: "rgba(195, 196, 197, 0.466)",
+                          boxShadow: 3
+                      }} >
+                      <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
+                          <ExpandMore />
+                      }>
+                          <img src={"../assets/Figma-logo.png"} alt="Figma" />
+                          <Typography className="competencies__accordion-header competencies__accordion"><h4>Figma</h4></Typography>
+                      </AccordionSummary>
+                      <AccordionDetails >
+                      <img src={"../assets/figma-example.gif"} alt="Figma" />
+                      </AccordionDetails>
+              </Accordion>
+              
+              <Accordion className="competencies__accordion-item  "sx={{ 
+                          backgroundColor: "rgba(195, 196, 197, 0.466)",
+                          boxShadow: 3
+                      }} >
+                      <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
+                          <ExpandMore />
+                      }>
+                          <img src={"../assets/AdobeXD-logo.png"} alt="Adobexd" />
+                          <Typography className="competencies__accordion-header competencies__accordion"><h4>Adobe XD</h4></Typography>
+                      </AccordionSummary>
+                      <AccordionDetails >
+                      <img src={"../assets/elementor-example.gif"} alt="Adobexd" />
+                      </AccordionDetails>
+              </Accordion>
+              
+              <Accordion className="competencies__accordion-item  "sx={{ 
+                      backgroundColor: "rgba(195, 196, 197, 0.466)",
+                      boxShadow: 3
+                    }} >
+                      <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
+                          <ExpandMore />
+                      }>
+                          <img src={"../assets/Adobe_Photoshop_logo.png"} alt="AdobePhotoshop" />
+                          <Typography className="competencies__accordion-header competencies__accordion"><h4>Adobe Photoshop</h4></Typography>
+                      </AccordionSummary>
+                      <AccordionDetails >
+                      <img src={"../assets/elementor-example.gif"} alt="Adobe photoshop" />
+                      </AccordionDetails>
+              </Accordion>
 
             </div>              
           </div>  
