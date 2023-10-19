@@ -37,7 +37,7 @@ export default function Competencies () {
                         boxShadow: 3
                                 }} >
                     <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
-                        <ExpandMore />
+                        <ExpandMoreIcon />
                     }>
                         <img src={"../assets/CSSLogo_mod1.png"} alt="CSS" />
                         <Typography className="competencies__accordion-header competencies__accordion"><h4>CSS</h4></Typography>
