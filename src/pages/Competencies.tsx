@@ -36,14 +36,14 @@ export default function Competencies () {
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
                         boxShadow: 3
                                 }} >
-                    <AccordionSummary id="panel1-header" className="competencies__accordion=-header" expandIcon={
+                    <AccordionSummary id="panel1-header" className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
-                        <img src={"../assets/CSSLogo_mod1.png"} alt="CSS" />
+                        <img src={"/src/assets/CSS.3.svg"} alt="CSS" />
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>CSS</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
-                    <img src={"../assets/sass-example.gif"} alt="CSS" />
+                    <img src={"/src/assets/sass-example.gif"} alt="CSS" />
                     </AccordionDetails>
                 </Accordion>
 
