@@ -103,11 +103,11 @@ export default function Competencies () {
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
-                        <img src={"../assets/SASS_Logo_mod1.png"} alt="SASS" />
+                        <img src={"src/assets/Sass_Logo_Color.svg"} alt="SASS" />
                         <Typography className="competencies__accordion--header competencies__accordion-"><h4>SASS</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
-                    <img src={"../assets/sass-example.gif"} alt="SASS" />
+                    <img src={"src/assets/sass-example.gif"} alt="SASS" />
                     </AccordionDetails>
                 </Accordion>
                     
@@ -118,11 +118,11 @@ export default function Competencies () {
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
-                        <img src={"../assets/bootstrap-logo_1.png"} alt="Bootstrap" />
+                        <img src={"src/assets/bootstrap-logo.svg"} alt="Bootstrap" />
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>Bootstrap</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
-                    <img src={"../assets/javascript-example.gif"} alt="Bootstrap" />
+                    <img src={"src/assets/javascript-example.gif"} alt="Bootstrap" />
                     </AccordionDetails>
                 </Accordion>
 
