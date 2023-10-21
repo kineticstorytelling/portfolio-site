@@ -1,16 +1,16 @@
-import Accordion from '@mui/material/Accordion'
-import Typography from '@mui/material/Typography'
-import AccordionSummary from '@mui/material/AccordionSummary'
-import AccordionDetails from '@mui/material/AccordionDetails'
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
-import './_competencies.scss'
+import Accordion from "@mui/material/Accordion"
+import Typography from "@mui/material/Typography"
+import AccordionSummary from "@mui/material/AccordionSummary"
+import AccordionDetails from "@mui/material/AccordionDetails"
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
+import "./_competencies.scss"
 
 export default function Competencies () {
   return (
     <>
-        <section className="competencies">
-            <h2 className='competencies__title'>Competencies</h2>
-            <div className="comptencies__category">
+        <section className="competencies" id="competencies">
+            <h2 className="competencies__title">Competencies</h2>
+            <div className="competencies__category">
 
               <div className="competencies__category--label"><h3>Languages</h3></div>
                   
