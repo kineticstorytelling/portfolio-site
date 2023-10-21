@@ -50,4 +50,19 @@
 .competencies__accordion--item-body-content img{
     padding: 0 1% 0 1%;
     border-radius: 10px;
+
+  }
+.MuiAccordion-root:before{
+  height: 0px;
+}
+
+.MuiAccordion-root.Mui-expanded{
+  left: 20%;
+  background-color: rgba(195, 196, 197, 0.466);
+    box-shadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px;
+    // border-radius: 10px;
+
+}
+.MuiAccordion-root img{
+  width: 100%;
 }
