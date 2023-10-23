@@ -193,7 +193,7 @@ export default function Competencies () {
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
-                        <img src={"src/assets/nodejs-1-logo1.png"} alt="ExpressJS" />
+                        <img src={"/src/assets/Expressjs-logo.png"} alt="ExpressJS" />
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>ExpressJS</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
