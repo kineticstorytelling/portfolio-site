@@ -248,20 +248,20 @@ export default function Competencies () {
 
                 <br />
 
-            {/* <div className="competencies__category">
-            <div className="competencies__category-label"><h3>CMS and Design</h3></div>
-                <Accordion className="competencies__accordion-item  "sx={{ 
+            <div className="competencies__category">
+            <div className="competencies__category--label"><h3>CMS and Design</h3></div>
+                <Accordion className="competencies__accordion--item  "sx={{ 
                           backgroundColor: "rgba(195, 196, 197, 0.466)",
                           boxShadow: 3
                       }} >
-                      <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
+                      <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
-                          <img src={"../assets/WordPress_blue_logo.png"} alt="Wordpress" />
-                          <Typography className="competencies__accordion-header competencies__accordion"><h4>Wordpress</h4></Typography>
+                          <img src={"/src/assets/WordPress_blue_logo.png"} alt="Wordpress" />
+                          <Typography className="competencies__accordion--header competencies__accordion"><h4>Wordpress</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"../assets/elementor-example.gif"} alt="Wordpress" />
+                      <img src={"/assets/elementor-example.gif"} alt="Wordpress" />
                       </AccordionDetails>
                  </Accordion>
                  
@@ -353,10 +353,9 @@ export default function Competencies () {
                       <AccordionDetails >
                       <img src={"../assets/elementor-example.gif"} alt="Adobe photoshop" />
                       </AccordionDetails>
-              </Accordion> */}
-
-            {/* </div>               */}
-          </div>   */}
+              </Accordion>
+            </div>
+          </div>   
         </section>
     </>
   )
