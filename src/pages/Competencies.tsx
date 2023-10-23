@@ -302,7 +302,7 @@ export default function Competencies () {
                       <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
-                          <img src={"/src/assets/elementor.svg"} alt="Elementor" />
+                          <img src={"src/assets/elementor.svg"} alt="Elementor" />
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Elementor</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
@@ -321,37 +321,37 @@ export default function Competencies () {
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Figma</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"../assets/figma-example.gif"} alt="Figma" />
+                      <img src={"src/assets/figma-example.gif"} alt="Figma" />
                       </AccordionDetails>
               </Accordion>
               
-              <Accordion className="competencies__accordion-item  "sx={{ 
+              <Accordion className="competencies__accordion--item  "sx={{ 
                           backgroundColor: "rgba(195, 196, 197, 0.466)",
                           boxShadow: 3
                       }} >
-                      <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
+                      <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
-                          <img src={"../assets/AdobeXD-logo.png"} alt="Adobexd" />
-                          <Typography className="competencies__accordion-header competencies__accordion"><h4>Adobe XD</h4></Typography>
+                          <img src={"src/assets/Adobe_XD_CC_icon.svg"} alt="Adobexd" />
+                          <Typography className="competencies__accordion--header competencies__accordion"><h4>Adobe XD</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"../assets/elementor-example.gif"} alt="Adobexd" />
+                      <img src={"src/assets/elementor-example.gif"} alt="Adobexd" />
                       </AccordionDetails>
               </Accordion>
               
-              <Accordion className="competencies__accordion-item  "sx={{ 
+              <Accordion className="competencies__accordion--item  "sx={{ 
                       backgroundColor: "rgba(195, 196, 197, 0.466)",
                       boxShadow: 3
                     }} >
-                      <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
+                      <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
-                          <img src={"../assets/Adobe_Photoshop_logo.png"} alt="AdobePhotoshop" />
-                          <Typography className="competencies__accordion-header competencies__accordion"><h4>Adobe Photoshop</h4></Typography>
+                          <img src={"src/assets/Adobe_Photoshop_CC_icon.svg"} alt="AdobePhotoshop" />
+                          <Typography className="competencies__accordion--header competencies__accordion"><h4>Adobe Photoshop</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"../assets/elementor-example.gif"} alt="Adobe photoshop" />
+                      <img src={"src/assets/elementor-example.gif"} alt="Adobe photoshop" />
                       </AccordionDetails>
               </Accordion>
             </div>
