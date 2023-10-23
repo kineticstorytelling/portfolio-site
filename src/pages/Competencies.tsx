@@ -280,33 +280,33 @@ export default function Competencies () {
                       </AccordionDetails>
               </Accordion>
               
-              <Accordion className="competencies__accordion-item  "sx={{ 
+              <Accordion className="competencies__accordion--item  "sx={{ 
                           backgroundColor: "rgba(195, 196, 197, 0.466)",
                           boxShadow: 3
                       }} >
-                      <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
+                      <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
                           <img src={"../assets/Elementor-logo.png"} alt="Hubspot" />
-                          <Typography className="competencies__accordion-header competencies__accordion"><h4>Hubspot</h4></Typography>
+                          <Typography className="competencies__accordion--header competencies__accordion"><h4>Hubspot</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
                       <img src={"../assets/elementor-example.gif"} alt="Hubspot" />
                       </AccordionDetails>
               </Accordion>
 
-              <Accordion className="competencies__accordion-item  "sx={{ 
+              <Accordion className="competencies__accordion--item  "sx={{ 
                           backgroundColor: "rgba(195, 196, 197, 0.466)",
                           boxShadow: 3
                       }} >
-                      <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
+                      <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
-                          <img src={"../assets/Elementor-logo.png"} alt="Elementor" />
-                          <Typography className="competencies__accordion-header competencies__accordion"><h4>Elementor</h4></Typography>
+                          <img src={"/src/assets/elementor.svg"} alt="Elementor" />
+                          <Typography className="competencies__accordion--header competencies__accordion"><h4>Elementor</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"../assets/elementor-example.gif"} alt="Elementor" />
+                      <img src={"src/assets/elementor-example.gif"} alt="Elementor" />
                       </AccordionDetails>
               </Accordion>
               
