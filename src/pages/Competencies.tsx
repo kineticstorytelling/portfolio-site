@@ -148,7 +148,7 @@ export default function Competencies () {
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
-                        <img src={"src/assets/React_Logo.png"} className = "competencies__accordion-header-img" alt="React" />
+                        <img src={"src/assets/reactlogo.png"} className = "competencies__accordion-header-img" alt="React" />
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>React</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
@@ -163,7 +163,7 @@ export default function Competencies () {
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
-                        <img src={"/src/assets/nodejs-1-logo.png"} alt="NodeJS" />
+                        <img src={"src/assets/nodejs-1-logo.png"} alt="NodeJS" />
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>NodeJS</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
