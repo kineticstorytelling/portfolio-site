@@ -261,22 +261,22 @@ export default function Competencies () {
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Wordpress</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"/assets/elementor-example.gif"} alt="Wordpress" />
+                      <img src={"src/assets/elementor-example.gif"} alt="Wordpress" />
                       </AccordionDetails>
                  </Accordion>
                  
-                 <Accordion className="competencies__accordion-item  "sx={{ 
+                 <Accordion className="competencies__accordion--item  "sx={{ 
                           backgroundColor: "rgba(195, 196, 197, 0.466)",
                           boxShadow: 3
                       }} >
-                      <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
+                      <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
-                          <img src={"../assets/Shopify-logo.png"} alt="Shopify" />
-                          <Typography className="competencies__accordion-header competencies__accordion"><h4>Shopify</h4></Typography>
+                          <img src={"/src/assets/Shopify-logo.png"} alt="Shopify" />
+                          <Typography className="competencies__accordion--header competencies__accordion"><h4>Shopify</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"../assets/elementor-example.gif"} alt="Shopify" />
+                      <img src={"src/assets/elementor-example.gif"} alt="Shopify" />
                       </AccordionDetails>
               </Accordion>
               
