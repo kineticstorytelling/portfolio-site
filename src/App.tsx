@@ -1,6 +1,6 @@
 import './_app.scss';
 import './styles/_typography.scss';
-import Navbar from './components/Navbar.tsx'
+import Navbar from './layout/Navbar.tsx'
 import Social from './components/Social.tsx'
 import Hero from './pages/Hero.tsx'
 import Services from './pages/Services.jsx'
