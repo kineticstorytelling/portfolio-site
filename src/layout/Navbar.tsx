@@ -1,4 +1,5 @@
 import '../styles/_navbar.scss'
+import '../styles/_logo.scss'
 
 const Navbar = () => {
   return (
