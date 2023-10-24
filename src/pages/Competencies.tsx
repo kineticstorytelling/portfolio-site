@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography"
 import AccordionSummary from "@mui/material/AccordionSummary"
 import AccordionDetails from "@mui/material/AccordionDetails"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
-import "./_competencies.scss"
+import "../styles/_competencies.scss"
 
 export default function Competencies () {
   return (
