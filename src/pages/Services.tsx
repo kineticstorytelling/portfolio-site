@@ -1,9 +1,10 @@
+import '../styles/_services.scss'
 
 const Services = () => {
   
   return (
-    <section className="services" id="services">
-      <h2 className="services__title services__title--services">What I do</h2>
+    <section className="my-services" id="services">
+      <h2 className="services__title">What I do</h2>
       <div className="services__body">
         <div className="services__body--content">
           <h3>Design</h3>
