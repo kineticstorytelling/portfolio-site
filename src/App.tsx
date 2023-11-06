@@ -4,7 +4,8 @@ import Navbar from './layout/Navbar.tsx'
 import Social from './components/Social.tsx'
 import Hero from './pages/Hero.tsx'
 import Services from './pages/Services.jsx'
-import Competencies from './pages/Competencies.tsx'
+import Competencies from './pages/Competencies.tsx';
+import Contact from './pages/Contact.tsx';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Hero />
           <Services />
           <Competencies />
+          <Contact />
           </div>
         </div>
       </body>

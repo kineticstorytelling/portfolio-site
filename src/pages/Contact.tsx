@@ -3,7 +3,7 @@ type Props = {
   page: string;
 }
 
-const Contact = (props: Props) => {
+const Contact = () => {
   return (
     <div>Contact</div>
   )
