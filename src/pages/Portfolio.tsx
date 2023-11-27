@@ -2,7 +2,18 @@
 const Portfolio = () => {
   return (
     // My Work
-    <div>Portfolio</div>
+    <div>
+        <section>
+            <div className="designs">
+                <div className="portfolio">
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
   )
 }
 
