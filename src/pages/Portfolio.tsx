@@ -5,9 +5,9 @@ const Portfolio = () => {
     <div>
         <section>
             <div className="designs">
-                <div className="portfolio">
-                    <div>
-                        
+                <div className="portfolio__body--portfolio" id="portfolio">
+                    <div className="designs">
+                        <h2 className="portfolio__title--portfolio">Past Designs</h2>
                     </div>
                 </div>
             </div>
