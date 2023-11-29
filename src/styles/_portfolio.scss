@@ -9,4 +9,15 @@
 .portfolio img{
     border-radius: 20px;
 }
- 
+
+// projects
+
+.porfolio__body--title a {
+    text-decoration: none;
+    text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+    color: var(--clr-dark);
+    transition: all .4s ease;
+    &:hover{
+      color: var(--clr-accent);
+    }
+}
