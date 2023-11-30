@@ -134,7 +134,7 @@ const Portfolio = () => {
                                 </ul>
                             </div>
 
-                        <div className="portfolio_body project--image3">
+                        <div className="portfolio_body project__content3--image">
                             <a href="">
                                 <img src="" alt="" />
                             </a>
