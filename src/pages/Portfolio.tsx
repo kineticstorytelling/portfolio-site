@@ -68,7 +68,7 @@ const Portfolio = () => {
                                 <h3>
                                     <a href="https://github.com">Jehlyo</a>
                                 </h3>
-                                <div className="portfolio__body project__content1--description1">
+                                <div className="portfolio__body project__content1--description">
                                     <p>I developed a web application that helps users choose between differently priced products in markets</p>
                                 </div>
                                 <ul className="portfolio__body project__content--techList">
