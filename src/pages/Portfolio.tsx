@@ -82,7 +82,7 @@ const Portfolio = () => {
                             </div>
                     
 
-                        <div className="portfolio_body project--image1">
+                        <div className="portfolio_body project__content1--image">
                             <a href="">
                                 <img src="" alt="" />
                             </a>
@@ -91,11 +91,11 @@ const Portfolio = () => {
                     
                   <div className="portfolio__body project__content2">
                             <div>
-                                <p className="portfolio__body project__content1--overLine">Featured Project</p>
+                                <p className="portfolio__body project__content2--overLine">Featured Project</p>
                                 <h3>
                                     <a href="https://github.com">Soul Soju</a>
                                 </h3>
-                                <div className="portfolio__body project__content1--description1">
+                                <div className="portfolio__body project__content2--description">
                                     <p>A website for Soju Enthusiasts</p>
                                 </div>
                                 <ul className="portfolio__body project--techList">
@@ -108,7 +108,7 @@ const Portfolio = () => {
                                 </ul>
                             </div>
 
-                        <div className="portfolio_body project--image2">
+                        <div className="portfolio_body project__content2--image">
                             <a href="">
                                 <img src="" alt="" />
                             </a>
