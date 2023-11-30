@@ -117,11 +117,11 @@ const Portfolio = () => {
                 
                  <div className="portfolio__body project__content3">
                             <div>
-                                <p className="portfolio__body project__content1--overLine">Featured Project</p>
+                                <p className="portfolio__body project__content3--overLine">Featured Project</p>
                                 <h3>
                                     <a href="https://Emergenthealing.com">Emergent Healing Website</a>
                                 </h3>
-                                <div className="portfolio__body project__content1--description1">
+                                <div className="portfolio__body project__content3--description">
                                     <p>A full stack website for an acupuncturist. I first designed the website logo and theme in Adobe Photoshop, Procreate and Figma before building the website using PHP and Wordpress.</p>
                                 </div>
                                 <ul className="portfolio__body project--techList">
