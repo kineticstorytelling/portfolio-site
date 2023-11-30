@@ -100,3 +100,14 @@
 .project__content3{
     margin: 10% 0 0 67%;
 }
+
+.project__description3{
+    background-color: rgb(202, 206, 207);
+    height: 30%;
+    width: 80%;
+    // min-width: 200px;
+    font-size: var(--fs-project);
+    padding: 20px 20px 15px 15px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
