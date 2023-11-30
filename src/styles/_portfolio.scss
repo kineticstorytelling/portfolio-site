@@ -175,5 +175,20 @@
     .project__content3--description{
       width: 85vw;
       margin: auto;
-    }    
+    }
+    .project__content1--image img{
+      width: 100vw;
+      top: 28vh;
+      margin-inline: auto;
+    }
+    .project__content2--image img{
+      width: 105vw;
+      top: 28vh;
+      margin-inline: auto;
+    }
+    .project__content3--image img{
+      margin-inline: auto;
+      bottom: 5vh;
+      width: 115vw;
+    }
 }
