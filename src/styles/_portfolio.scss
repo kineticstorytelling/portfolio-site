@@ -82,3 +82,15 @@
     padding: 20px 20px 15px 15px;
     border-radius: 10px;
 }
+
+.project__content2--image img{
+    width: 55vw;
+    margin: -33% 0 0 43vw;
+    padding-left: 5%;
+    filter: brightness(70%);
+    transition: all .4s ease;
+    &:hover{
+      z-index: 3;
+      filter: none;
+    }
+}
