@@ -18,7 +18,7 @@ const Portfolio = () => {
                                 <div className="portfolio__body project__content1--description1">
                                     <p>I developed a web application that helps users choose between differently priced products in markets</p>
                                 </div>
-                                <ul className="portfolio__body project--techList">
+                                <ul className="portfolio__body project__content--techList">
                                     <li>Figma</li>
                                     <li>React</li>
                                     <li>TailwindCSS</li>
@@ -45,7 +45,7 @@ const Portfolio = () => {
                                 <div className="portfolio__body project__content1--description1">
                                     <p>I developed a web application that helps users choose between differently priced products in markets</p>
                                 </div>
-                                <ul className="portfolio__body project--techList">
+                                <ul className="portfolio__body project__content--techList">
                                     <li>Figma</li>
                                     <li>React</li>
                                     <li>TailwindCSS</li>
@@ -71,7 +71,7 @@ const Portfolio = () => {
                                 <div className="portfolio__body project__content1--description1">
                                     <p>I developed a web application that helps users choose between differently priced products in markets</p>
                                 </div>
-                                <ul className="portfolio__body project--techList">
+                                <ul className="portfolio__body project__content--techList">
                                     <li>Figma</li>
                                     <li>React</li>
                                     <li>TailwindCSS</li>

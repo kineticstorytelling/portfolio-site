@@ -21,3 +21,19 @@
       color: var(--clr-accent);
     }
 }
+
+.project___content--techList li{
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 450;
+    text-shadow: 1px .7px 1px rgba(36, 35, 35, 0.623);
+    margin-right: 5px;
+    color: rgb(146, 52, 52);
+    flex-wrap: wrap;
+    &:hover{
+      color: rgb(219, 28, 28);
+      text-shadow: none;
+      cursor: pointer;
+    }
+}
