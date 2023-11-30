@@ -123,3 +123,30 @@
           filter: none;
     }
 }
+
+// Media Queries
+@media only screen and (max-width: 700px){
+    .project__content1{
+      margin-left: 45%;
+      z-index: 1;
+    }
+    .project__content1--image img{
+      right: 5%;
+    }
+    .project__content1--image img:hover{
+      z-index: 2;
+    }
+    .project__content2{
+      right: 7%;
+      z-index: 1;
+    }
+    .project__content2--image img{
+      margin-left: 45%;
+      margin-bottom: 10%;
+    }
+    .project__content2--image{
+        &:hover{
+      z-index: 2;
+    }
+  }
+}
