@@ -6,7 +6,7 @@ import Hero from './pages/Hero.tsx'
 import Services from './pages/Services.jsx'
 import Competencies from './pages/Competencies.tsx';
 import Contact from './pages/Contact.tsx';
-
+import Test from './pages/Test.tsx'
 
 function App() {
 
@@ -19,6 +19,7 @@ function App() {
           <div className="content">
           <Hero />
           <Services />
+          <Test />
           <Competencies />
           <Contact />
           </div>
