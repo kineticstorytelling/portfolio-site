@@ -34,7 +34,7 @@ export default function Test() {
           className="child"
           style={{
             height: "100%",
-            width: "50vw",
+            width: "5vw",
             scale: scaleRight,
             y: yRight,
             x: xRight,
