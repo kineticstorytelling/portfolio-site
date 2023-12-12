@@ -40,9 +40,9 @@ export default function Test() {
             x: xRight,
           }}
         >
-          <h2>Scroll Down to Zoom Out</h2>
+          <h2 className="zoom">Scroll Down to Zoom Out</h2>
         </motion.div>
       </div>
     </div>
-  );
+  ))
 }
