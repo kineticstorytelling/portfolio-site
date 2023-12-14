@@ -26,9 +26,9 @@ export const Reveal = {{children, width = "fit-content"}: Props} => {
                 }}
                 initial= 'hidden'
                 animate= {mathControls}
-                transition={{}}
+                transition={{duration:0.5, delay: 0.25}}
             >
-                
+                {children}
             </motion.div>
         </div>
     )
