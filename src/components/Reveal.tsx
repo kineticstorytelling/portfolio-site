@@ -19,7 +19,15 @@ export const Reveal = {{children, width = "fit-content"}: Props} => {
 
     return(
         <div ref={ref} style={{position:'relative', width, overflow:'hidden'}}>
-            <motion.div>
+            <motion.div
+                variants={{
+                    hidden: {opacity: 0, y: 75},
+                    visible: {opacity: 1, y: 0},
+                }}
+                initial= 'hidden'
+                animate= {mathControls}
+                transition={{}}
+            >
                 
             </motion.div>
         </div>
