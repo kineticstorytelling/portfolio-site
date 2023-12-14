@@ -1,5 +1,4 @@
 import '../styles/_hero.scss'
-import { motion, useInView, useAnimation} from 'framer-motion'
 
 interface Props{
   children:JSX.Element;
