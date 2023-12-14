@@ -1,12 +1,12 @@
-import React,{useEffect, useRef} from 'react';
+import {useEffect, useRef} from 'react';
 import {motion, useInView, useAnimation, useIsPresent} from 'framer-motion';
 
 interface Props{
     children: JSX.Element;
-    width?: "fit-content" | 100%;
+    width?: "fit-content" | '100%';
 }
 
-export const Reveal = {{children, width = "fit-content"}: Props} => {
+const Reveal = ({children, width = "fit-content"}: Props) => {
     const ref = useRef(null);
     const isInView = useInView(ref, {once:true});
     const mainControls = useAnimation();
@@ -25,7 +25,7 @@ export const Reveal = {{children, width = "fit-content"}: Props} => {
                     visible: {opacity: 1, y: 0},
                 }}
                 initial= 'hidden'
-                animate= {mathControls}
+                animate= {mainControls}
                 transition={{duration:0.5, delay: 0.25}}
             >
                 {children}
@@ -33,3 +33,5 @@ export const Reveal = {{children, width = "fit-content"}: Props} => {
         </div>
     )
 }
+
+export default Reveal
