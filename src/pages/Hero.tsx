@@ -30,15 +30,15 @@ return(
         <span className='hero__title hero__title--hero'>Hi, I'm</span>
       </motion.div>
      </div>
-      <titleReveal>
+      {/* <titleReveal> */}
         <h3 className='hero__title hero__title--name'>Luke Nam</h3>
-      </titleReveal>
-      <titleReveal>
+      {/* </titleReveal> */}
+      {/* <titleReveal> */}
         <h3 className='hero__subtitle hero__subtitle--hero'>and I like making websites</h3>
-      </titleReveal>
-      <Reveal>
+      {/* </titleReveal> */}
+      {/* <Reveal> */}
         <h3 className='hero__subtitle hero__subtitle--secondary'>Especially Web Design and Full-stack Development</h3>
-      </Reveal>
+      {/* </Reveal> */}
     </section>
     </>
   )
