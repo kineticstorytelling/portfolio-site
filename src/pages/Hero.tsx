@@ -17,9 +17,10 @@ export const Hero = () => {
 
     <>
     <section className='hero' id='home'>
-      <titleReveal>
+     <div ref={ref} style={{overflow:'hidden'}}>
+
         <span className='hero__title hero__title--hero'>Hi, I'm</span>
-      </titleReveal>
+     </div>
       <titleReveal>
         <h3 className='hero__title hero__title--name'>Luke Nam</h3>
       </titleReveal>
