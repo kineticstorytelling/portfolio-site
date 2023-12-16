@@ -1,6 +1,5 @@
 // import { Reveal } from '@/components/Reveal.tsx'
 import {useEffect, useRef} from 'react';
-import {titleReveal} from 'src//components/Reveal';
 import '../styles/_hero.scss'
 
 
