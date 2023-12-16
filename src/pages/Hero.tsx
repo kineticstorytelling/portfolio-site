@@ -1,6 +1,6 @@
 // import { Reveal } from '@/components/Reveal.tsx'
 import {useEffect, useRef} from 'react';
-import { motion } from 'framer-motion';
+import { motion, useInView, useAnimation} from 'framer-motion';
 import '../styles/_hero.scss'
 
 
