@@ -4,22 +4,21 @@ import { motion } from 'framer-motion';
 import '../styles/_hero.scss'
 
 
+
 export const Hero = () => {
-  return (
     const ref = useRef(null);
     const isInView = useInView(ref, {once:true});
-    const mainControls = useAnimation();
-
+   const mainControls = useAnimation();
     useEffect(()=>{
         if (isInView){
             mainControls.start("visible");
         }
     }, [isInView]);
-
+return(
     <>
     <section className='hero' id='home'>
      <div ref={ref} style={{overflow:'hidden'}}>
-                  <motion.div
+        <motion.div
                 variants={{
                     hidden: {opacity: 0, y: 75},
                     visible: {opacity: 1, y: 0},
@@ -29,7 +28,7 @@ export const Hero = () => {
                 transition={{duration:0.5, delay: 0.25}}
             >
         <span className='hero__title hero__title--hero'>Hi, I'm</span>
-        </motion.div>
+      </motion.div>
      </div>
       <titleReveal>
         <h3 className='hero__title hero__title--name'>Luke Nam</h3>
