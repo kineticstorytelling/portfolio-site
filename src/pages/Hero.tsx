@@ -30,7 +30,6 @@ return(
         <span className='hero__title hero__title--hero'>Hi, I'm</span>
       </motion.div>
      </div>
-      {/* <titleReveal> */}
         <h3 className='hero__title hero__title--name'>Luke Nam</h3>
       {/* </titleReveal> */}
       {/* <titleReveal> */}
