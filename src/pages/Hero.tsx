@@ -41,9 +41,7 @@ return(
             >
         <h3 className='hero__title hero__title--name'>Luke Nam</h3>
       </motion.div>
-  
         <h3 className='hero__subtitle hero__subtitle--hero'>and I like making websites</h3>
-      {/* </titleReveal> */}
       {/* <Reveal> */}
         <h3 className='hero__subtitle hero__subtitle--secondary'>Especially Web Design and Full-stack Development</h3>
       {/* </Reveal> */}
