@@ -48,17 +48,15 @@ return(
                 }}
                 initial= 'hidden'
                 animate= {mainControls}
-                transition={{duration:0.5, delay: 1}}
+                transition={{duration:0.5, delay: 2 }}
             >
-        <h3 className='hero__title hero__title--name'>Luke Nam</h3>
+        <h3 className='hero__subtitle hero__subtitle--hero'>and I like making websites</h3>
       </motion.div>
 
-
-        <h3 className='hero__subtitle hero__subtitle--hero'>and I like making websites</h3>
         <h3 className='hero__subtitle hero__subtitle--secondary'>Especially Web Design and Full-stack Development</h3>
     </section>
+
     </>
   )
 }
-
 export default Hero
