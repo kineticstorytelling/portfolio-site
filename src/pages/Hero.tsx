@@ -7,6 +7,7 @@ import '../styles/_hero.scss'
 
 export const Hero = () => {
 
+  const greeting = "Hi, I'm";
   const sentence = {
     hidden: { opacity: 1},
     visible: {
@@ -37,14 +38,14 @@ return(
     <section className='hero' id='home'>
      <div ref={ref} style={{overflow:'hidden'}}>
      
-        <motion.span 
+        <motion.h3
         className='hero__title hero__title--hero'
         variants={sentence}
         initial="hidden"
         animate="visible"
         >
           Hi, I'm
-        </motion.span>
+        </motion.h3>
      </div>
    <motion.div
                 variants={{
