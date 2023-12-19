@@ -44,7 +44,13 @@ return(
         initial="hidden"
         animate="visible"
         >
-          Hi, I'm
+          {greeting.split("").map((char, index) => {
+            return (
+              <motion.span key={char + "-" + index} variants={letter}>
+                {char}
+              </motion.span>
+            )
+          })}
         </motion.h3>
      </div>
    <motion.div
