@@ -8,7 +8,10 @@ import '../styles/_hero.scss'
 export const Hero = () => {
 
   const sentence = {
-    
+    hidden: { opacity: 1},
+    visible: {
+      
+    }
   }
   const ref = useRef(null);
   const isInView = useInView(ref, {once:true});
