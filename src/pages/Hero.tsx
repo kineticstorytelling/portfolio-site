@@ -6,9 +6,13 @@ import '../styles/_hero.scss'
 
 
 export const Hero = () => {
-    const ref = useRef(null);
-    const isInView = useInView(ref, {once:true});
-   const mainControls = useAnimation();
+
+  const sentence = {
+    
+  }
+  const ref = useRef(null);
+  const isInView = useInView(ref, {once:true});
+  const mainControls = useAnimation();
     useEffect(()=>{
         if (isInView){
             mainControls.start("visible");
