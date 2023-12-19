@@ -10,8 +10,12 @@ export const Hero = () => {
   const sentence = {
     hidden: { opacity: 1},
     visible: {
-      
-    }
+      opacity: 1,
+      transition: {
+        delay: 0.5,
+        staggerChildren: 0.08,
+      }, 
+    },
   }
   const ref = useRef(null);
   const isInView = useInView(ref, {once:true});
