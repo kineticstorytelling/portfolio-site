@@ -5,7 +5,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import "../styles/_competencies.scss";
 import { useRef, useEffect } from "react";
-import { motion } from "framer-motion";
+import { motion, useAnimation, useInView } from "framer-motion";
 
 export default function Competencies () {
 
