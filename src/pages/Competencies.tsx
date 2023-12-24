@@ -10,7 +10,9 @@ import { motion } from "framer-motion";
 export default function Competencies () {
 
   const ref = useRef(null);
+  const isInView = useInView(ref, {once:true});
 
+    
   return (
     <>
         <section className="competencies" id="competencies">
