@@ -33,9 +33,8 @@ export default function Competencies () {
         <h2 className='competencies__title'>Competencies</h2>
       </motion.div>
             <div className="competencies__category">
-
               <div className="competencies__category--label"><h3>Languages</h3></div>
-                  
+              
                    <Accordion className="competencies__accordion--item" sx={{ 
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
                         // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
