@@ -19,8 +19,8 @@ export default function Competencies () {
     }, [isInView]);
     
   return (
-    <>
         <section className="competencies" id="competencies">
+    <>
  <motion.div
                 variants={{
                     hidden: {opacity: 0, y: 75},
@@ -30,9 +30,8 @@ export default function Competencies () {
                 animate= {mainControls}
                 transition={{duration:0.5, delay: 1.3}}
             >
-        <h3 className='hero__title hero__title--name'>Luke Nam</h3>
+        <h2 className='competencies__title'>Competencies</h2>
       </motion.div>
-            <h2 className="competencies__title">Competencies</h2>
             <div className="competencies__category">
 
               <div className="competencies__category--label"><h3>Languages</h3></div>
