@@ -9,6 +9,8 @@ import { motion } from "framer-motion";
 
 export default function Competencies () {
 
+  const ref = useRef(null);
+
   return (
     <>
         <section className="competencies" id="competencies">
