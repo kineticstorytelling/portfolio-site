@@ -1,11 +1,13 @@
-import Accordion from "@mui/material/Accordion"
-import Typography from "@mui/material/Typography"
-import AccordionSummary from "@mui/material/AccordionSummary"
-import AccordionDetails from "@mui/material/AccordionDetails"
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
-import "../styles/_competencies.scss"
+import Accordion from "@mui/material/Accordion";
+import Typography from "@mui/material/Typography";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import "../styles/_competencies.scss";
+import { useRef } from "react";
 
 export default function Competencies () {
+
   return (
     <>
         <section className="competencies" id="competencies">
