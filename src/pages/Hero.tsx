@@ -2,6 +2,7 @@
 import {useEffect, useRef} from 'react';
 import { motion, useInView, useAnimation} from 'framer-motion';
 import '../styles/_hero.scss'
+import { gsap } from "gsap";
 
 
 
