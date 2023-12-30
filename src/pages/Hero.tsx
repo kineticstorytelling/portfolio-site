@@ -1,9 +1,7 @@
 // import { Reveal } from '@/components/Reveal.tsx'
-import {useEffect, useLayoutEffect, useRef} from 'react';
+import {useEffect, useRef} from 'react';
 import { motion, useInView, useAnimation} from 'framer-motion';
 import '../styles/_hero.scss'
-import { gsap } from "gsap";
-
 
 
 export const Hero = () => {
