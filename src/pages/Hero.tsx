@@ -5,8 +5,20 @@ import '../styles/_hero.scss'
 
 
 export const Hero = () => {
-
+  
+  const ref = useRef(null);
   // this is for the parallax scroll
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start start", "end start"],
+  });
+  const backgroundY = useTransform(scrollYProgress, [0,1], ["0%", "100%"]);
+  const textY = useTransform(scrollYProgress, [0,1], ["0%", "200%"]);
+
+  // up to here is the parallax scroll
+
+  const scaleRight = useTransform(scrollY, [0, 500], [2, 1]);
+
 
   const greeting = "Hi, I'm";
   const sentence = {
@@ -26,7 +38,6 @@ export const Hero = () => {
       y: 0,
     },
   }
-  const ref = useRef(null);
   const isInView = useInView(ref, {once:true});
   const mainControls = useAnimation();
     useEffect(()=>{
