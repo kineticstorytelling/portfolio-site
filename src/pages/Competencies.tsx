@@ -11,6 +11,7 @@ export default function Competencies () {
 
   const ref = useRef(null);
   const isInView = useInView(ref, {once:true});
+  
   const mainControls = useAnimation();
     useEffect(()=>{
         if (isInView){
@@ -19,9 +20,9 @@ export default function Competencies () {
     }, [isInView]);
     
   return (
-        <section className="competencies" id="competencies">
     <>
- <motion.div
+        <section className="competencies" id="competencies">
+        <motion.div
                 variants={{
                     hidden: {opacity: 0, y: 75},
                     visible: {opacity: 1, y: 0},
@@ -30,8 +31,8 @@ export default function Competencies () {
                 animate= {mainControls}
                 transition={{duration:0.5, delay: 1.3}}
             >
-        <h2 className='competencies__title'>Competencies</h2>
-      </motion.div>
+            <h2 className='competencies__title'>Competencies</h2>
+        </motion.div>
             <div className="competencies__category">
               <div className="competencies__category--label"><h3>Languages</h3></div>
               

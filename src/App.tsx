@@ -6,6 +6,7 @@ import Hero from './pages/Hero.tsx'
 import Services from './pages/Services.jsx'
 import Competencies from './pages/Competencies.tsx';
 import Contact from './pages/Contact.tsx';
+import {motion} from 'framer-motion';
 // import Test from './pages/Test.tsx'
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
   return (
     <>
       <body>
-        <div className="App">
+        <motion.div className="App">
           <Navbar />
           <Social />
           <div className="content">
@@ -23,7 +24,7 @@ function App() {
           <Competencies />
           <Contact />
           </div>
-        </div>
+        </motion.div>
       </body>
 
     </>
