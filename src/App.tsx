@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <body>
-        <motion.div className="App">
+        <div className="App">
           <Navbar />
           <Social />
           <div className="content">
@@ -24,7 +24,7 @@ function App() {
           <Competencies />
           <Contact />
           </div>
-        </motion.div>
+        </div>
       </body>
 
     </>
