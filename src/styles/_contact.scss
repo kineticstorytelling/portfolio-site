@@ -1,0 +1,22 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+
+    }
+    .contact h2{
+      margin: 0 0 10% 0;
+    }
+
+    @media only screen and (max-width: 600px){
+      
+      .contact{
+        height: 70vh;
+        h2{
+          margin-top: 40%;
+        }
+      }
+    }
