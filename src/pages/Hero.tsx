@@ -4,11 +4,12 @@ import { motion, useInView, useTransform, useScroll, useAnimation} from 'framer-
 import '../styles/_hero.scss'
 // import gsap from 'gsap';
 // import {useGSAP} from '@gsap/react';
+import { Canvas } from 'react-three-fiber';
+import Scene from '../components/Scene';
 
 
 
 export const Hero = () => {
-
 
 
 // wait until DOM is ready
@@ -111,18 +112,18 @@ export const Hero = () => {
         }
     }, [isInView]);
 
-  // const sideMove = () => {
-
-  // }
 
 return(
     <>
-    <motion.section className='hero' id='home' animate={{ x:100}} initial={{ x:0}} transition={{when: "beforeChildren", duration: 1}}>
+    <section className='hero' id='home'>
     {/* <motion.div 
       className='hero'
     > */}
-     <div ref={ref} style={{overflow:'hidden'}}>
-     
+
+   <Canvas style={{ position: 'absolute' }}>
+        <Scene />
+      </Canvas>
+     {/* <div ref={ref} style={{overflow:'hidden'}}> */}
         <motion.h3
         className='hero__title hero__title--hero'
         variants={sentence}
@@ -140,7 +141,7 @@ return(
           })}
         </motion.h3>
         {/* <AnimatedText text="Hi" /> */}
-     </div>
+     {/* </div> */}
 
    <motion.div
                 variants={{
@@ -166,7 +167,7 @@ return(
         <h3 className='hero__subtitle hero__subtitle--hero'>and I like making websites</h3>
         <h3 className='hero__subtitle hero__subtitle--secondary'>Especially Web Design and Full-stack Development</h3>
     {/* </motion.div> */}
-    </motion.section>
+    </section>
 
     </>
   )
