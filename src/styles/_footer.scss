@@ -1,5 +1,4 @@
 footer{
-
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
@@ -12,15 +11,15 @@ footer{
     line-height: -200%;
   }
 
-  .social-list__item{
+ .social-list__item{
     list-style: none;
      a{
       text-decoration: none;
     }
-  }
-    .social-list__item:nth-child(1):hover {
+}
+  .social-list__item:nth-child(1):hover {
       background: #171515;
-    }
+  }
     .social-list__item:nth-child(2):hover {
       background: #7e0bd6;
     }

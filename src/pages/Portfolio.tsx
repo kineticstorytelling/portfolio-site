@@ -13,7 +13,7 @@ const Portfolio = () => {
                             <div>
                                 <p className="portfolio__body project__content1--overLine">Featured Project</p>
                                 <h3>
-                                    <a href="https://github.com">Jehlyo</a>
+                                    <a href="https://github.com">Mukbe</a>
                                 </h3>
                                 <div className="portfolio__body project__content1--description1">
                                     <p>I developed a web application that helps users choose between differently priced products in markets</p>
