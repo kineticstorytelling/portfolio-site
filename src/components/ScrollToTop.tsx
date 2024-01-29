@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
-import './_scroll.scss';
+import '../styles/_scroll.scss';
 
 const ScrollButton = () =>{
 
