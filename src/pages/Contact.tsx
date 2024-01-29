@@ -1,4 +1,4 @@
-import '../styles/'
+import '../styles/_contact.scss'
 import '../components/_buttons.scss';
 
 function Contact() {
