@@ -2,7 +2,7 @@
 const Portfolio = () => {
   return (
     // My Work
-    <div>
+    <div className="portfolio">
         <section>
             <div className="designs">
                 <div className="portfolio portfolio__body" id="portfolio">
