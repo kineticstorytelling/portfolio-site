@@ -6,7 +6,7 @@ import Footer from './layout/Footer.tsx';
 import Hero from './pages/Hero.tsx'
 import Services from './pages/Services.jsx'
 import Competencies from './pages/Competencies.tsx';
-import Contact from './pages/Contact.tsx';
+import Contacts from './pages/Contacts.tsx';
 import ScrollButton from './components/ScrollToTop.tsx';
 import Portfolio from './pages/Portfolio.tsx';
 // import {motion} from 'framer-motion';
@@ -26,7 +26,7 @@ function App() {
           {/* <Test /> */}
           <Competencies />
           <Portfolio />
-          <Contact />
+          <Contacts />
           </div>
           <ScrollButton />
           <Footer />
