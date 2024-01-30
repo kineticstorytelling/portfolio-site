@@ -2,6 +2,7 @@ import {useState} from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import '../styles/_scroll.scss';
+import '../styles/_social.scss';
 
 const ScrollButton = () =>{
 

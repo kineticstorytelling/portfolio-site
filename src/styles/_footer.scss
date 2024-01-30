@@ -7,6 +7,24 @@ footer{
   footer a {color: inherit;
   }
 
+// .social-list{
+//     margin: 2%;
+//     padding: 10px 30px 10px 30px;
+//     font-size: var(--pr-fs);
+//     border: 2px solid var(--clr-light);
+//     background-color:var(--clr-light);
+//     background-image: linear-gradient(var(--clr-light),#f3f3fd66 );
+//     border-radius: 30px;
+//     color: var(--clr-dark);
+//     cursor: pointer;
+//     position: relative;
+//     transition: all 0.2s ease-in-out;
+//         &:hover{
+//         border-color: (var(--clr-accent));
+//         color: rgb(226, 226, 226);
+//         background: rgba(110, 110, 110, 0.726);
+//     } 
+// }
   footer li i{
     line-height: -200%;
   }
