@@ -58,7 +58,7 @@ const Portfolio = () => {
                         </div>
                         
                         <div className="portfolio_body project__content2--image">
-                            <a href="">
+                            <a href="https://sparkling-mooncake-6a5cd8.netlify.app/#/">
                                 <img src="/src/assets/Soul Soju Design.png" alt="Soul Soju Web Page Designs" />
                             </a>
                         </div>
@@ -67,7 +67,7 @@ const Portfolio = () => {
                             <div>
                                 <p className="portfolio__body project__content3--overLine">Featured Project</p>
                                 <h3>
-                                            <a href="https://Emergenthealing.com">Emergent Healing</a>
+                                    <a href="https://Emergenthealing.com">Emergent Healing</a>
                                 </h3>
                                 <div className="portfolio__body project__content3--description">
                                     <p>A full stack website for an acupuncturist. I first designed the website logo and theme in Adobe Photoshop, Procreate and Figma before building the website using PHP and Wordpress.</p>
