@@ -17,7 +17,7 @@ const Portfolio = () => {
                                     <a href="https://jehlyo.netlify.app/">Jehlyo</a>
                                 </h3>
                                 <div className="portfolio__body project__content1--description">
-                                    <p>A Web application that helps users compare store prices for ingredients</p>
+                                    <p>A Web application that helps users compare store prices for ingredients. This is a full stack application that I designed and built with the technologies listed below. In the process of developing it into a mobile application using React Native and Expo</p>
                                 </div>
                                 <ul className="portfolio__body project__content--techList">
                                     <li>Figma</li>
