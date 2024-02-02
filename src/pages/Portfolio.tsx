@@ -47,7 +47,7 @@ const Portfolio = () => {
                                     <p>A Web Index of the different Soju brands for Enthusiasts. I built a backend API to handle the data for the different varieties of Soju flavors and styles. </p>
                                 </div>
                                 <ul className="portfolio__body project__content--techList">
-                                    {/* <li style={{fontSize:'3px'}}>Adobe XD</li> */}
+                                    <li>Adobe XD</li>
                                     <li>React</li>
                                     <li>TailwindCSS</li>
                                     <li>Python</li>
