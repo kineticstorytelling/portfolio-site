@@ -30,7 +30,7 @@ const Portfolio = () => {
                             </div>
                         </div>
 
-                        <div className="portfolio_body project--image1">
+                        <div className="portfolio__body project--image1">
                             <a href="">
                                 <img src="" alt="" />
                             </a>
