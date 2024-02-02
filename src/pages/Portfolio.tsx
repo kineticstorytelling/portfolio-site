@@ -32,7 +32,7 @@ const Portfolio = () => {
 
                         <div className="portfolio__body project--image1">
                             <a href="">
-                                <img src="" alt="" />
+                                <img src="/src/assets/Jehlyo Design Page.png" alt="" />
                             </a>
                         </div>
                     </div>
