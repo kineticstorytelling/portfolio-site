@@ -38,56 +38,57 @@ const Portfolio = () => {
                     
                     
                         <div className="portfolio__body project__content2">
-                                    <div>
-                                        <p className="portfolio__body project__content2--overLine">Featured Project</p>
-                                        <h3>
-                                            <a href="https://sparkling-mooncake-6a5cd8.netlify.app/#/">Soul Soju</a>
-                                        </h3>
-                                        <div className="portfolio__body project__content2--description">
-                                            <p>A Web Index of the different Soju brands for Enthusiasts. I built a backend API to handle the data for the different varieties of Soju flavors and styles. </p>
-                                        </div>
-                                        <ul className="portfolio__body project__content--techList">
-                                            <li>Adobe XD</li>
-                                            <li>React</li>
-                                            <li>TailwindCSS</li>
-                                            <li>Python</li>
-                                            <li>Flask</li>
-                                            <li>PostgreSQL</li>
-                                        </ul>
-                                    </div>
-
+                            <div>
+                                <p className="portfolio__body project__content2--overLine">Featured Project</p>
+                                <h3>
+                                    <a href="https://sparkling-mooncake-6a5cd8.netlify.app/#/">Soul Soju</a>
+                                </h3>
+                                <div className="portfolio__body project__content2--description">
+                                    <p>A Web Index of the different Soju brands for Enthusiasts. I built a backend API to handle the data for the different varieties of Soju flavors and styles. </p>
+                                </div>
+                                <ul className="portfolio__body project__content--techList">
+                                    <li>Adobe XD</li>
+                                    <li>React</li>
+                                    <li>TailwindCSS</li>
+                                    <li>Python</li>
+                                    <li>Flask</li>
+                                    <li>PostgreSQL</li>
+                                </ul>
                             </div>
-                                <div className="portfolio_body project__content2--image">
-                                    <a href="">
-                                        <img src="/src/assets/Soul Soju Design.png" alt="Soul Soju Web Page Designs" />
-                                    </a>
-                            </div>
-                
-                 <div className="portfolio__body project__content3">
-                    <div>
-                        <p className="portfolio__body project__content3--overLine">Featured Project</p>
-                        <h3>
-                                    <a href="https://Emergenthealing.com">Emergent Healing</a>
-                        </h3>
-                        <div className="portfolio__body project__content3--description">
-                            <p>A full stack website for an acupuncturist. I first designed the website logo and theme in Adobe Photoshop, Procreate and Figma before building the website using PHP and Wordpress.</p>
                         </div>
-                        <ul className="portfolio__body project__content--techList">
-                            <li>Figma</li>
-                            <li>Adobe Photoshop</li>
-                            <li>Wordpress</li>
-                            <li>PHP</li>
-                            <li>CSS</li>
-                            <li>Javascript</li>
-                        </ul>
-                    </div>
+                        
+                        <div className="portfolio_body project__content2--image">
+                            <a href="">
+                                <img src="/src/assets/Soul Soju Design.png" alt="Soul Soju Web Page Designs" />
+                            </a>
+                        </div>
+                
+                        <div className="portfolio__body project__content3">
+                            <div>
+                                <p className="portfolio__body project__content3--overLine">Featured Project</p>
+                                <h3>
+                                            <a href="https://Emergenthealing.com">Emergent Healing</a>
+                                </h3>
+                                <div className="portfolio__body project__content3--description">
+                                    <p>A full stack website for an acupuncturist. I first designed the website logo and theme in Adobe Photoshop, Procreate and Figma before building the website using PHP and Wordpress.</p>
+                                </div>
+                                <ul className="portfolio__body project__content--techList">
+                                    <li>Figma</li>
+                                    <li>Adobe Photoshop</li>
+                                    <li>Wordpress</li>
+                                    <li>PHP</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                </ul>
+                            </div>
 
-                </div>
-                    <div className="portfolio_body project__content3--image">
-                        <a href="">
-                            <img src="/src/assets/Emergent Healing Design.png" alt="Emergent Healing Design" />
-                        </a>
-                    </div>
+                        </div>
+                        
+                        <div className="portfolio_body project__content3--image">
+                            <a href="">
+                                <img src="/src/assets/Emergent Healing Design.png" alt="Emergent Healing Design" />
+                            </a>
+                        </div>
                 </div>
             </div>
         </div>
