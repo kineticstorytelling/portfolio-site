@@ -1,3 +1,4 @@
+import './_portfolio.scss';
 
 const Portfolio = () => {
   return (
