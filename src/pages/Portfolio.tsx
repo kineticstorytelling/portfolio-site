@@ -41,7 +41,7 @@ const Portfolio = () => {
                             <div>
                                 <p className="portfolio__body project__content2--overLine">Featured Project</p>
                                 <h3>
-                                    <a href="https://github.com">Soul Soju</a>
+                                    <a href="https://sparkling-mooncake-6a5cd8.netlify.app/#/">Soul Soju</a>
                                 </h3>
                                 <div className="portfolio__body project__content2--description">
                                     <p>A Web Index of the different Soju brands for Enthusiasts. I built a backend API to handle the data for the different varieties of Soju flavors and styles. </p>
