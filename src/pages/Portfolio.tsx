@@ -57,7 +57,7 @@ const Portfolio = () => {
 
                         <div className="portfolio_body project__content2--image">
                             <a href="">
-                                <img src="" alt="" />
+                                <img src="/src/assets/Soul Soju Design.png" alt="" />
                             </a>
                         </div>
                     </div>
