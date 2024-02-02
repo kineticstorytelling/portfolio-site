@@ -14,7 +14,7 @@ const Portfolio = () => {
                             <div>
                                 <p className="portfolio__body project__content1--overLine">Featured Project</p>
                                 <h3>
-                                    <a href="https://github.com">Mukbe</a>
+                                    <a href="https://jehlyo.netlify.app/">Mukbe</a>
                                 </h3>
                                 <div className="portfolio__body project__content1--description1">
                                     <p>A Web application that helps users compare store prices for ingredients</p>
