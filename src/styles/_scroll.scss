@@ -1,12 +1,13 @@
 .scrollButton{
-    width: 58px;
+    width: 55px;
     height: 55px;
-    border-radius: 30px;
+    border-radius: 50%;
+    padding: 0;
+    font-size: 1.6rem;
     border: none;
     position: fixed;
     left: 85vw;
     bottom: 40px;
-    font-size: 2rem;
     z-index: 1;
     cursor: pointer;
     color: rgb(178, 178, 178);

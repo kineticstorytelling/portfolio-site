@@ -31,7 +31,7 @@ window.addEventListener('scroll', toggleVisible);
 return (
 	<button className='scrollButton'>
   <FontAwesomeIcon icon={faChevronUp} onClick={scrollToTop}
-	style={{display: visible ? 'inline' : 'none'}} />
+	style={ { display: visible ? 'inline' : 'none'}} />
 	</button>
 );
 }
