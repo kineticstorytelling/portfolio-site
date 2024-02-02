@@ -3,9 +3,9 @@ import '../styles/_portfolio.scss';
 const Portfolio = () => {
   return (
     // My Work
-    <div className="portfolio">
-        <section>
-            <div className="designs">
+    <>
+      <section className="portfolio">
+        <div className="designs">
                 <div className="portfolio portfolio__body" id="portfolio">
                     <div className="designs">
                         <h2 className="portfolio__body--title">Past Designs</h2>
@@ -35,7 +35,7 @@ const Portfolio = () => {
                                 <img src="/src/assets/Jehlyo Design Page.png" alt="Jehlyo Design Image" />
                             </a>
                         </div>
-                    </div>
+                    
                     
                   <div className="portfolio__body project__content2">
                             <div>
@@ -56,42 +56,43 @@ const Portfolio = () => {
                                 </ul>
                             </div>
 
+                    </div>
                         <div className="portfolio_body project__content2--image">
                             <a href="">
                                 <img src="/src/assets/Soul Soju Design.png" alt="Soul Soju Web Page Designs" />
                             </a>
                         </div>
-                    </div>
                 
                  <div className="portfolio__body project__content3">
-                            <div>
-                                <p className="portfolio__body project__content3--overLine">Featured Project</p>
-                                <h3>
+                    <div>
+                        <p className="portfolio__body project__content3--overLine">Featured Project</p>
+                        <h3>
                                     <a href="https://Emergenthealing.com">Emergent Healing</a>
-                                </h3>
-                                <div className="portfolio__body project__content3--description">
-                                    <p>A full stack website for an acupuncturist. I first designed the website logo and theme in Adobe Photoshop, Procreate and Figma before building the website using PHP and Wordpress.</p>
-                                </div>
-                                <ul className="portfolio__body project__content--techList">
-                                    <li>Figma</li>
-                                    <li>Adobe Photoshop</li>
-                                    <li>Wordpress</li>
-                                    <li>PHP</li>
-                                    <li>CSS</li>
-                                    <li>Javascript</li>
-                                </ul>
-                            </div>
-
-                        <div className="portfolio_body project__content3--image">
-                            <a href="">
-                                <img src="/src/assets/Emergent Healing Design.png" alt="Emergent Healing Design" />
-                            </a>
+                        </h3>
+                        <div className="portfolio__body project__content3--description">
+                            <p>A full stack website for an acupuncturist. I first designed the website logo and theme in Adobe Photoshop, Procreate and Figma before building the website using PHP and Wordpress.</p>
                         </div>
+                        <ul className="portfolio__body project__content--techList">
+                            <li>Figma</li>
+                            <li>Adobe Photoshop</li>
+                            <li>Wordpress</li>
+                            <li>PHP</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </div>
+
+                </div>
+                    <div className="portfolio_body project__content3--image">
+                        <a href="">
+                            <img src="/src/assets/Emergent Healing Design.png" alt="Emergent Healing Design" />
+                        </a>
                     </div>
                 </div>
-            </div>
+                </div>
+        </div>
     </section>
-  </div>
+  </>
 
   )
 }
