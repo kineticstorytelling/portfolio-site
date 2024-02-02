@@ -83,7 +83,7 @@ const Portfolio = () => {
 
                         <div className="portfolio_body project__content3--image">
                             <a href="">
-                                <img src="/src/assets/" alt="" />
+                                <img src="/src/assets/Emergent Healing Design.png" alt="" />
                             </a>
                         </div>
                     </div>
