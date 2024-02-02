@@ -16,7 +16,7 @@ const Portfolio = () => {
                                     <a href="https://github.com">Mukbe</a>
                                 </h3>
                                 <div className="portfolio__body project__content1--description1">
-                                    <p>I developed a web application that helps users choose between differently priced products in markets</p>
+                                    <p>A Web application that helps users compare store prices for ingredients</p>
                                 </div>
                                 <ul className="portfolio__body project__content--techList">
                                     <li>Figma</li>
@@ -35,59 +35,6 @@ const Portfolio = () => {
                             </a>
                         </div>
                     </div>
-
-                    <div className="portfolio__body project__content1">
-                            <div>
-                                <p className="portfolio__body project__content1--overLine">Featured Project</p>
-                                <h3>
-                                    <a href="https://github.com">Jehlyo</a>
-                                </h3>
-                                <div className="portfolio__body project__content1--description1">
-                                    <p>I developed a web application that helps users choose between differently priced products in markets</p>
-                                </div>
-                                <ul className="portfolio__body project__content--techList">
-                                    <li>Figma</li>
-                                    <li>React</li>
-                                    <li>TailwindCSS</li>
-                                    <li>Python</li>
-                                    <li>Flask</li>
-                                    <li>PostgreSQL</li>
-                                </ul>
-                            </div>
-
-                            <div className="portfolio_body project--image1">
-                                <a href="">
-                                    <img src="" alt="" />
-                                </a>
-                            </div>
-                    </div>   
-
-                    <div className="portfolio__body project__content1">
-                            <div>
-                                <p className="portfolio__body project__content1--overLine">Featured Project</p>
-                                <h3>
-                                    <a href="https://github.com">Jehlyo</a>
-                                </h3>
-                                <div className="portfolio__body project__content1--description">
-                                    <p>I developed a web application that helps users choose between differently priced products in markets</p>
-                                </div>
-                                <ul className="portfolio__body project__content--techList">
-                                    <li>Figma</li>
-                                    <li>React</li>
-                                    <li>TailwindCSS</li>
-                                    <li>Python</li>
-                                    <li>Flask</li>
-                                    <li>PostgreSQL</li>
-                                </ul>
-                            </div>
-                    
-
-                        <div className="portfolio_body project__content1--image">
-                            <a href="">
-                                <img src="" alt="" />
-                            </a>
-                        </div>
-                    </div>
                     
                   <div className="portfolio__body project__content2">
                             <div>
@@ -96,7 +43,7 @@ const Portfolio = () => {
                                     <a href="https://github.com">Soul Soju</a>
                                 </h3>
                                 <div className="portfolio__body project__content2--description">
-                                    <p>A website for Soju Enthusiasts</p>
+                                    <p>A web Index of the different Soju brands for Enthusiasts </p>
                                 </div>
                                 <ul className="portfolio__body project--techList">
                                     <li>Adobe XD</li>
