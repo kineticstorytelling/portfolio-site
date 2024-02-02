@@ -83,7 +83,7 @@ const Portfolio = () => {
 
                         <div className="portfolio_body project__content3--image">
                             <a href="">
-                                <img src="" alt="" />
+                                <img src="/src/assets/" alt="" />
                             </a>
                         </div>
                     </div>
