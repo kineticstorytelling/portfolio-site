@@ -6,9 +6,9 @@ const Portfolio = () => {
     <>
       <section className="portfolio">
         <div className="designs">
-                <div className="portfolio portfolio__body" id="portfolio">
-                    <div className="designs">
-                        <h2 className="portfolio__body--title">Past Designs</h2>
+            <div className="portfolio portfolio__body" id="portfolio">
+                <div className="designs">
+                    <h2 className="portfolio__body--title">Past Designs</h2>
 
                         <div className="portfolio__body project__content1">
                             <div>
@@ -37,31 +37,31 @@ const Portfolio = () => {
                         </div>
                     
                     
-                  <div className="portfolio__body project__content2">
-                            <div>
-                                <p className="portfolio__body project__content2--overLine">Featured Project</p>
-                                <h3>
-                                    <a href="https://sparkling-mooncake-6a5cd8.netlify.app/#/">Soul Soju</a>
-                                </h3>
-                                <div className="portfolio__body project__content2--description">
-                                    <p>A Web Index of the different Soju brands for Enthusiasts. I built a backend API to handle the data for the different varieties of Soju flavors and styles. </p>
-                                </div>
-                                <ul className="portfolio__body project__content--techList">
-                                    <li>Adobe XD</li>
-                                    <li>React</li>
-                                    <li>TailwindCSS</li>
-                                    <li>Python</li>
-                                    <li>Flask</li>
-                                    <li>PostgreSQL</li>
-                                </ul>
-                            </div>
+                        <div className="portfolio__body project__content2">
+                                    <div>
+                                        <p className="portfolio__body project__content2--overLine">Featured Project</p>
+                                        <h3>
+                                            <a href="https://sparkling-mooncake-6a5cd8.netlify.app/#/">Soul Soju</a>
+                                        </h3>
+                                        <div className="portfolio__body project__content2--description">
+                                            <p>A Web Index of the different Soju brands for Enthusiasts. I built a backend API to handle the data for the different varieties of Soju flavors and styles. </p>
+                                        </div>
+                                        <ul className="portfolio__body project__content--techList">
+                                            <li>Adobe XD</li>
+                                            <li>React</li>
+                                            <li>TailwindCSS</li>
+                                            <li>Python</li>
+                                            <li>Flask</li>
+                                            <li>PostgreSQL</li>
+                                        </ul>
+                                    </div>
 
-                    </div>
-                        <div className="portfolio_body project__content2--image">
-                            <a href="">
-                                <img src="/src/assets/Soul Soju Design.png" alt="Soul Soju Web Page Designs" />
-                            </a>
-                        </div>
+                            </div>
+                                <div className="portfolio_body project__content2--image">
+                                    <a href="">
+                                        <img src="/src/assets/Soul Soju Design.png" alt="Soul Soju Web Page Designs" />
+                                    </a>
+                            </div>
                 
                  <div className="portfolio__body project__content3">
                     <div>
@@ -89,7 +89,7 @@ const Portfolio = () => {
                         </a>
                     </div>
                 </div>
-                </div>
+            </div>
         </div>
     </section>
   </>
