@@ -16,7 +16,7 @@ const Portfolio = () => {
                                 <h3>
                                     <a href="https://jehlyo.netlify.app/">Jehlyo</a>
                                 </h3>
-                                <div className="portfolio__body project__content1--description1">
+                                <div className="portfolio__body project__content1--description">
                                     <p>A Web application that helps users compare store prices for ingredients</p>
                                 </div>
                                 <ul className="portfolio__body project__content--techList">
