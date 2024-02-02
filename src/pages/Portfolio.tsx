@@ -46,7 +46,7 @@ const Portfolio = () => {
                                 <div className="portfolio__body project__content2--description">
                                     <p>A Web Index of the different Soju brands for Enthusiasts. I built a backend API to handle the data for the different varieties of Soju flavors and styles. </p>
                                 </div>
-                                <ul className="portfolio__body project--techList">
+                                <ul className="portfolio__body project__content--techList">
                                     <li>Adobe XD</li>
                                     <li>React</li>
                                     <li>TailwindCSS</li>
@@ -72,7 +72,7 @@ const Portfolio = () => {
                                 <div className="portfolio__body project__content3--description">
                                     <p>A full stack website for an acupuncturist. I first designed the website logo and theme in Adobe Photoshop, Procreate and Figma before building the website using PHP and Wordpress.</p>
                                 </div>
-                                <ul className="portfolio__body project--techList">
+                                <ul className="portfolio__body project__content--techList">
                                     <li>Figma</li>
                                     <li>Adobe Photoshop</li>
                                     <li>Wordpress</li>
