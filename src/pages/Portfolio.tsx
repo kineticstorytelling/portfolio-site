@@ -31,7 +31,7 @@ const Portfolio = () => {
                         </div>
 
                         <div className="portfolio__body project__content1--image">
-                            <a href="">
+                            <a href="https://jehlyo.netlify.app/">
                                 <img src="/src/assets/Jehlyo Design Page.png" alt="Jehlyo Design Image" />
                             </a>
                         </div>
