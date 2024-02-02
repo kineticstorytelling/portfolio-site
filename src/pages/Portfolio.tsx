@@ -44,7 +44,7 @@ const Portfolio = () => {
                                     <a href="https://github.com">Soul Soju</a>
                                 </h3>
                                 <div className="portfolio__body project__content2--description">
-                                    <p>A web Index of the different Soju brands for Enthusiasts </p>
+                                    <p>A Web Index of the different Soju brands for Enthusiasts. I built a backend API to handle the data for the different varieties of Soju flavors and styles. </p>
                                 </div>
                                 <ul className="portfolio__body project--techList">
                                     <li>Adobe XD</li>
