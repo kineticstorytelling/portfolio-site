@@ -31,10 +31,8 @@ const Portfolio = () => {
                 animate= {mainControls}
                 transition={{duration:0.5, delay: 1.3}}
             >
-            <h2 className=''></h2>
+            <h2 className='portfolio__body--title'></h2>
         </motion.div>
-                    <h2 className="portfolio__body--title">Projects I've worked on</h2>
-
                         <div className="portfolio__body project__content1">
                             <div>
                                 <p className="portfolio__body project__content1--overLine">Featured Project</p>
