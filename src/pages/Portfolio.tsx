@@ -1,5 +1,5 @@
 
-
+import { useRef } from 'react';
 import '../styles/_portfolio.scss';
 import { motion } from 'framer-motion';
 
