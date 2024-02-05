@@ -25,8 +25,8 @@
       }
       img{
         padding: 0 20px 0 0;
-        height: 70px;
-        width: 90px;
+        height: 80px;
+        width: 40px;
       }
 }
 
@@ -66,3 +66,84 @@
 // .MuiAccordion-root img{
 //  width: 30%;
 // }
+
+.MuiAccordion-root img{
+  width: 100%;
+}
+// this is the carousel expanded image
+  .competencies__accordion-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2% 0 2% 5%;
+      h3{
+        padding: 0 0 0 5%;
+      }
+      :hover{
+        cursor: pointer;
+      }
+      img{
+        padding: 0 20px 0 0;
+        height: 50px;
+        width: 70px
+      }
+    }
+    .competencies__accordion-item-body-content img{
+      padding: 0 1% 0 1%;
+      border-radius: 10px;
+    }
+  .competencies__accordion-item-body img{
+    width: 100%;
+  }
+  .competencies__accordion-header::after{
+    font: var(--fa-font-solid);
+    transition: all .4s ease;
+    // content: "\f107";
+    position: absolute;
+    // left: 70%;
+  }
+
+@media only screen and (max-width: 600px){
+
+  .competencies__category-label h3{
+    font-size: 30px;
+  }
+ 
+  .MuiAccordion-root{
+    left: -6%;
+    width: 350px;
+  }
+
+  .MuiAccordion-root.Mui-expanded{
+    left: -6%;
+    width: 350px;
+  }
+  .competencies{
+    height: 250vh;
+  }
+  // from here on down, I don't know if it works
+  .competencies__accordion{
+    width: 50vw;
+  }
+  .competencies__accordion-header::after{
+    position: absolute;
+    left: 80%;
+  }
+  .competencies__accordion-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2% 0 2% 5%;
+  }
+    .competencies__accordion h3{
+        padding: 0 0 0 5%;
+      }
+    .competencies__accordion:hover{
+        cursor: pointer;
+      }
+     .competencies__accordion img{
+        padding: 0 20px 0 0;
+        height: 50px;
+        width: 50px
+      }
+    }
