@@ -1,7 +1,12 @@
+
+
 import '../styles/_portfolio.scss';
 import { motion } from 'framer-motion';
 
 const Portfolio = () => {
+
+    const ref = useRef(null);
+
   return (
     // My Work
     <>
