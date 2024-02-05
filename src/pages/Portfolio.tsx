@@ -9,6 +9,11 @@ const Portfolio = () => {
     const isInView = useInView(ref, {once:true});
 
     const mainControls = useAnimation();
+    useEffect(()=>{
+        if (isInView){
+            mainControls.start("visible");
+        }
+    }, [isInView]);
 
   return (
     // My Work
