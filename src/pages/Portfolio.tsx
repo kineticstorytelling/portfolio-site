@@ -8,6 +8,8 @@ const Portfolio = () => {
     const ref = useRef(null);
     const isInView = useInView(ref, {once:true});
 
+    const mainControls = useAnimation();
+
   return (
     // My Work
     <>
