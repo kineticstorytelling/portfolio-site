@@ -1,7 +1,7 @@
 
 import { useRef, useEffect } from 'react';
 import '../styles/_portfolio.scss';
-import { motion, useInView } from 'framer-motion';
+import { motion, useInView, useAnimation } from 'framer-motion';
 
 const Portfolio = () => {
 
