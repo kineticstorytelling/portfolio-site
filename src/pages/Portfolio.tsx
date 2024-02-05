@@ -6,6 +6,7 @@ import { motion, useInView } from 'framer-motion';
 const Portfolio = () => {
 
     const ref = useRef(null);
+    const isInView = useInView(ref, {once:true});
 
   return (
     // My Work
