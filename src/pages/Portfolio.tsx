@@ -31,7 +31,7 @@ const Portfolio = () => {
                 animate= {mainControls}
                 transition={{duration:0.5, delay: 1.3}}
             >
-            <h2 className='portfolio__body--title'></h2>
+            <h2 className='portfolio__body--title'>Projects</h2>
         </motion.div>
                         <div className="portfolio__body project__content1">
                             <div>
