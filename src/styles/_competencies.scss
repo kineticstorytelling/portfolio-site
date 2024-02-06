@@ -105,12 +105,12 @@
  
   .MuiAccordion-root{
     left: -6%;
-    width: 350px;
+    width: 100vw;
   }
 
   .MuiAccordion-root.Mui-expanded{
-    left: -6%;
-    width: 350px;
+    left: 0%;
+    width: 100vw;
   }
   .competencies{
     height: 250vh;
@@ -119,11 +119,11 @@
   .competencies__accordion{
     width: 50vw;
   }
-  .competencies__accordion-header::after{
+  .competencies__accordion--header::after{
     position: absolute;
     left: 80%;
   }
-  .competencies__accordion-header{
+  .competencies__accordion--header{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -139,5 +139,8 @@
         padding: 0 20px 0 0;
         height: 50px;
         width: 50px
+      }
+      .MuiAccordionDetails-root img{
+        width: 92vw;
       }
     }
