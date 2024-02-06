@@ -22,7 +22,7 @@ const Portfolio = () => {
         <div className="designs">
             <div className="portfolio portfolio__body" id="portfolio">
                 <div className="designs">
-                <motion.div
+        <motion.div
                 variants={{
                     hidden: {opacity: 0, y: 75},
                     visible: {opacity: 1, y: 0},
