@@ -164,23 +164,19 @@
       flex-direction: column;
     }
     .project__content1 {
-      margin: 20% 0 40% 0;
+      margin: 20% 15% 45% 5%;
     }
     .project__content2 {
       margin: 30vh 0 35% 0;
     }
     .project__content3{
-      margin: 20% 0 35% 0;
-    }
-    .project__content3--description{
-      width: 85vw;
-      margin: auto;
+      margin: 20% 15% 45% 5%;
     }
     .project__content1--image img{
       // flex-direction: column;
       width: 100vw;
       top: 28vh;
-      margin-inline: auto;
+      // margin-inline: auto;
     }
     .project__content2--image img{
       width: 100vw;
