@@ -12,11 +12,11 @@ export default function Competencies () {
   return (
     <>
         <section className="competencies" id="competencies">
-        <Reveal>
-            <h2 className='competencies__title'>Competencies</h2>
-        </Reveal>
-            <div className="competencies__category">
-              <div className="competencies__category--label"><h3>Languages</h3></div>
+            
+            <Reveal><h2 className='competencies__title'>Competencies</h2></Reveal>
+            
+                <div className="competencies__category">
+                <div className="competencies__category--label"><h3>Languages</h3></div>
               
                    <Accordion className="competencies__accordion--item" sx={{ 
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
