@@ -13,10 +13,9 @@ export default function Competencies () {
   return (
     <>
         <section className="competencies" id="competencies">
-        <motion.div
-            >
+        <>
             <h2 className='competencies__title'>Competencies</h2>
-        </motion.div>
+        </>
             <div className="competencies__category">
               <div className="competencies__category--label"><h3>Languages</h3></div>
               
