@@ -10,13 +10,7 @@ import { motion, useAnimation, useInView } from "framer-motion";
 export default function Competencies () {
   
   const mainControls = useAnimation();
-    useEffect(()=>{
-        if (isInView){
-            mainControls.start("visible");
-        }
-    }, [isInView]);
-    
-  return (
+ return (
     <>
         <section className="competencies" id="competencies">
         <motion.div
