@@ -4,6 +4,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import "../styles/_competencies.scss";
+import Reveal from "../components/Reveal";
 
 export default function Competencies () {
 
