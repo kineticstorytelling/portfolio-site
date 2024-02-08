@@ -8,8 +8,9 @@ import { useRef, useEffect } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 
 export default function Competencies () {
-  
- return (
+
+    
+  return (
     <>
         <section className="competencies" id="competencies">
         <motion.div
@@ -18,7 +19,6 @@ export default function Competencies () {
                     visible: {opacity: 1, y: 0},
                 }}
                 initial= 'hidden'
-                animate= {mainControls}
                 transition={{duration:0.5, delay: 1.3}}
             >
             <h2 className='competencies__title'>Competencies</h2>
