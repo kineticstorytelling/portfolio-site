@@ -14,12 +14,6 @@ export default function Competencies () {
     <>
         <section className="competencies" id="competencies">
         <motion.div
-                variants={{
-                    hidden: {opacity: 0, y: 75},
-                    visible: {opacity: 1, y: 0},
-                }}
-                initial= 'hidden'
-                transition={{duration:0.5, delay: 1.3}}
             >
             <h2 className='competencies__title'>Competencies</h2>
         </motion.div>
