@@ -8,8 +8,6 @@ import { useRef, useEffect } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 
 export default function Competencies () {
-
-  const ref = useRef(null);
   
   const mainControls = useAnimation();
     useEffect(()=>{
