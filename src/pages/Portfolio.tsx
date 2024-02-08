@@ -6,8 +6,6 @@ import Reveal from '../components/Reveal';
 
 const Portfolio = () => {
 
-    // const ref = useRef(null);
-
   return (
     // My Work
     <>
