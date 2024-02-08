@@ -1,8 +1,6 @@
-
 import { useRef, useEffect } from 'react';
 import '../styles/_portfolio.scss';
 import Reveal from '../components/Reveal';
-// import { motion, useInView, useAnimation } from 'framer-motion';
 
 const Portfolio = () => {
 
