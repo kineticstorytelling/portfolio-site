@@ -22,9 +22,9 @@ const Portfolio = () => {
         <div className="designs">
             <div className="portfolio portfolio__body" id="portfolio">
                 <div className="designs">
-        <motion.div>
+        <>
             <h2 className='portfolio__body--title'>Projects</h2>
-        </motion.div>
+        </>
                         <div className="portfolio__body project__content1">
                             <div>
                                 <p className="portfolio__body project__content1--overLine">Featured Project</p>
