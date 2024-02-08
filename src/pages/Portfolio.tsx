@@ -7,9 +7,6 @@ import Reveal from '../components/Reveal';
 const Portfolio = () => {
 
     // const ref = useRef(null);
-    // const isInView = useInView(ref, {once:true});
-
-
 
   return (
     // My Work
