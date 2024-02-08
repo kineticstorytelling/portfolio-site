@@ -267,9 +267,9 @@ export default function Competencies () {
                       <AccordionDetails >
                       <img src={"src/assets/elementor-example.gif"} alt="Wordpress" />
                       </AccordionDetails>
-                 </Accordion>
+                </Accordion>
                  
-                 <Accordion className="competencies__accordion--item  "sx={{ 
+                <Accordion className="competencies__accordion--item  "sx={{ 
                           backgroundColor: "rgba(195, 196, 197, 0.466)",
                           boxShadow: 3
                       }} >
@@ -282,9 +282,9 @@ export default function Competencies () {
                       <AccordionDetails >
                       <img src={"src/assets/elementor-example.gif"} alt="Shopify" />
                       </AccordionDetails>
-              </Accordion>
+                </Accordion>
               
-              <Accordion className="competencies__accordion--item  "sx={{ 
+                <Accordion className="competencies__accordion--item  "sx={{ 
                           backgroundColor: "rgba(195, 196, 197, 0.466)",
                           boxShadow: 3
                       }} >
@@ -297,9 +297,9 @@ export default function Competencies () {
                       <AccordionDetails >
                       <img src={"src/assets/elementor-example.gif"} alt="Hubspot" />
                       </AccordionDetails>
-              </Accordion>
+                </Accordion>
 
-              <Accordion className="competencies__accordion--item  "sx={{ 
+                <Accordion className="competencies__accordion--item  "sx={{ 
                           backgroundColor: "rgba(195, 196, 197, 0.466)",
                           boxShadow: 3
                       }} >
@@ -312,9 +312,9 @@ export default function Competencies () {
                       <AccordionDetails >
                       <img src={"src/assets/elementor-example.gif"} alt="Elementor" />
                       </AccordionDetails>
-              </Accordion>
+                </Accordion>
               
-              <Accordion className="competencies__accordion--item  "sx={{ 
+                <Accordion className="competencies__accordion--item  "sx={{ 
                           backgroundColor: "rgba(195, 196, 197, 0.466)",
                           boxShadow: 3
                       }} >
@@ -327,9 +327,9 @@ export default function Competencies () {
                       <AccordionDetails >
                       <img src={"src/assets/figma-example.gif"} alt="Figma" />
                       </AccordionDetails>
-              </Accordion>
+                </Accordion>
               
-              <Accordion className="competencies__accordion--item  "sx={{ 
+                <Accordion className="competencies__accordion--item  "sx={{ 
                           backgroundColor: "rgba(195, 196, 197, 0.466)",
                           boxShadow: 3
                       }} >
@@ -342,9 +342,9 @@ export default function Competencies () {
                       <AccordionDetails >
                       <img src={"src/assets/elementor-example.gif"} alt="Adobexd" />
                       </AccordionDetails>
-              </Accordion>
+                </Accordion>
               
-              <Accordion className="competencies__accordion--item  "sx={{ 
+                <Accordion className="competencies__accordion--item  "sx={{ 
                       backgroundColor: "rgba(195, 196, 197, 0.466)",
                       boxShadow: 3
                     }} >
@@ -357,7 +357,7 @@ export default function Competencies () {
                       <AccordionDetails >
                       <img src={"src/assets/elementor-example.gif"} alt="Adobe photoshop" />
                       </AccordionDetails>
-              </Accordion>
+                </Accordion>
             </div>
           </div>   
         </section>
