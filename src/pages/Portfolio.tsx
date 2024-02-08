@@ -1,19 +1,20 @@
 
 import { useRef, useEffect } from 'react';
 import '../styles/_portfolio.scss';
-import { motion, useInView, useAnimation } from 'framer-motion';
+import Reveal from '@/components/Reveal';
+// import { motion, useInView, useAnimation } from 'framer-motion';
 
 const Portfolio = () => {
 
-    const ref = useRef(null);
-    const isInView = useInView(ref, {once:true});
+    // const ref = useRef(null);
+    // const isInView = useInView(ref, {once:true});
 
-    const mainControls1 = useAnimation();
-    useEffect(()=>{
-        if (isInView){
-            mainControls1.start("visible");
-        }
-    }, [isInView]);
+    // const mainControls1 = useAnimation();
+    // useEffect(()=>{
+    //     if (isInView){
+    //         mainControls1.start("visible");
+    //     }
+    // }, [isInView]);
 
   return (
     // My Work
