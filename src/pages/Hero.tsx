@@ -6,6 +6,7 @@ import '../styles/_hero.scss'
 // import {useGSAP} from '@gsap/react';
 import { Canvas } from 'react-three-fiber';
 import Scene from '../components/Scene';
+// import TitleAnimation from '../components/TitleAnimation';
 
 
 
@@ -149,7 +150,8 @@ return(
                     visible: {opacity: 1, y: 0},
                 }}
                 initial= 'hidden'
-                animate= {mainControls}
+                // animate= {mainControls}
+                animate = {mainControls}
                 transition={{duration:0.5, delay: 1.5}}
             >
         <h3 className='hero__title hero__title--name'>Luke Nam</h3>

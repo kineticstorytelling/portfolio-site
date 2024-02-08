@@ -8,10 +8,10 @@ const Portfolio = () => {
     const ref = useRef(null);
     const isInView = useInView(ref, {once:true});
 
-    const mainControls = useAnimation();
+    const mainControls1 = useAnimation();
     useEffect(()=>{
         if (isInView){
-            mainControls.start("visible");
+            mainControls1.start("visible");
         }
     }, [isInView]);
 
@@ -28,7 +28,7 @@ const Portfolio = () => {
                     visible: {opacity: 1, y: 0},
                 }}
                 initial= 'hidden'
-                animate= {mainControls}
+                animate= {mainControls1}
                 transition={{duration:0.5, delay: 1.3}}
             >
             <h2 className='portfolio__body--title'>Projects</h2>
