@@ -1,4 +1,3 @@
-import { useRef, useEffect } from 'react';
 import '../styles/_portfolio.scss';
 import Reveal from '../components/Reveal';
 
