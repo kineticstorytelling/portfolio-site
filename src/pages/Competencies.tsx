@@ -9,7 +9,6 @@ import { motion, useAnimation, useInView } from "framer-motion";
 
 export default function Competencies () {
   
-  const mainControls = useAnimation();
  return (
     <>
         <section className="competencies" id="competencies">
