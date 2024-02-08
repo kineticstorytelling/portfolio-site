@@ -1,7 +1,7 @@
 
 import { useRef, useEffect } from 'react';
 import '../styles/_portfolio.scss';
-import Reveal from '@/components/Reveal';
+import Reveal from '../components/Reveal';
 // import { motion, useInView, useAnimation } from 'framer-motion';
 
 const Portfolio = () => {
@@ -9,12 +9,7 @@ const Portfolio = () => {
     // const ref = useRef(null);
     // const isInView = useInView(ref, {once:true});
 
-    // const mainControls1 = useAnimation();
-    // useEffect(()=>{
-    //     if (isInView){
-    //         mainControls1.start("visible");
-    //     }
-    // }, [isInView]);
+
 
   return (
     // My Work
@@ -23,9 +18,9 @@ const Portfolio = () => {
         <div className="designs">
             <div className="portfolio portfolio__body" id="portfolio">
                 <div className="designs">
-        <>
+        <Reveal>
             <h2 className='portfolio__body--title'>Projects</h2>
-        </>
+        </Reveal>
                         <div className="portfolio__body project__content1">
                             <div>
                                 <p className="portfolio__body project__content1--overLine">Featured Project</p>
