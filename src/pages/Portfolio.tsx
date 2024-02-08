@@ -22,15 +22,7 @@ const Portfolio = () => {
         <div className="designs">
             <div className="portfolio portfolio__body" id="portfolio">
                 <div className="designs">
-        <motion.div
-                variants={{
-                    hidden: {opacity: 0, y: 75},
-                    visible: {opacity: 1, y: 0},
-                }}
-                initial= 'hidden'
-                animate= {mainControls1}
-                transition={{duration:0.5, delay: 1.3}}
-            >
+        <motion.div>
             <h2 className='portfolio__body--title'>Projects</h2>
         </motion.div>
                         <div className="portfolio__body project__content1">

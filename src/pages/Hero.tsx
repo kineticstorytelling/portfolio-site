@@ -1,4 +1,4 @@
-// import { Reveal } from '@/components/Reveal.tsx'
+import Reveal from '../components/Reveal'
 import {useEffect, useRef} from 'react';
 import { motion, useInView, useTransform, useScroll, useAnimation} from 'framer-motion';
 import '../styles/_hero.scss'
@@ -70,8 +70,6 @@ export const Hero = () => {
 // };
   
 // });
-
-
   
   const ref = useRef(null);
   // this is for the parallax scroll
@@ -121,9 +119,9 @@ return(
       className='hero'
     > */}
 
-   <Canvas style={{ position: 'absolute' }}>
+   {/* <Canvas style={{ position: 'absolute' }}>
         <Scene />
-      </Canvas>
+      </Canvas> */}
      {/* <div ref={ref} style={{overflow:'hidden'}}> */}
         <motion.h3
         className='hero__title hero__title--hero'
@@ -131,7 +129,6 @@ return(
         initial="hidden"
         animate="visible"
         transition={{delay: 1}}
-
         >
           {greeting.split("").map((char, index) => {
             return (
@@ -144,7 +141,7 @@ return(
         {/* <AnimatedText text="Hi" /> */}
      {/* </div> */}
 
-   <motion.div
+   {/* <motion.div
                 variants={{
                     hidden: {opacity: 0, y: 75},
                     visible: {opacity: 1, y: 0},
@@ -153,9 +150,9 @@ return(
                 // animate= {mainControls}
                 animate = {mainControls}
                 transition={{duration:0.5, delay: 1.5}}
-            >
-        <h3 className='hero__title hero__title--name'>Luke Nam</h3>
-      </motion.div>
+            > */}
+        <Reveal><h3 className='hero__title hero__title--name'>Luke Nam</h3></Reveal>
+      {/* </motion.div> */}
    <motion.div
                 variants={{
                     hidden: {opacity: 0, y: 75},
