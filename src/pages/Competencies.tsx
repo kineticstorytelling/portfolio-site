@@ -98,7 +98,7 @@ export default function Competencies () {
              </div>
                   <br />
             <div className="competencies__category">
-            <div className="competencies__category--label"><h3>Frameworks and Libraries</h3></div>
+            <div className="competencies__category--label"><Reveal><h3>Frameworks and Libraries</h3></Reveal></div>
                 
                 <Accordion className="competencies__accordion--item  "sx={{ 
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
