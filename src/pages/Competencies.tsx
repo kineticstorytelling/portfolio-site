@@ -10,7 +10,6 @@ import { motion, useAnimation, useInView } from "framer-motion";
 export default function Competencies () {
 
   const ref = useRef(null);
-  const isInView = useInView(ref, {once:true});
   
   const mainControls = useAnimation();
     useEffect(()=>{
