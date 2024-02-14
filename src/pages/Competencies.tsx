@@ -153,7 +153,7 @@ export default function Competencies () {
                         <ExpandMoreIcon />
                     }>
                         <img src={"src/assets/reactlogo.png"} className = "competencies__accordion-header-img" alt="React" />
-                        <Typography className="competencies__accordion--header competencies__accordion"><h4>React</h4></Typography>
+                        <Typography className="competencies__accordion--header competencies__accordion"><h4>React + React Native</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
                     <img src={"src/assets/react-example.gif"} alt="React" />
