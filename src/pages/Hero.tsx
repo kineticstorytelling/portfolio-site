@@ -163,8 +163,8 @@ return(
                 transition={{duration:0.5, delay: 2 }}
             >
     </motion.div>
-        <h3 className='hero__subtitle hero__subtitle--hero'>and I like making websites</h3>
-        <h3 className='hero__subtitle hero__subtitle--secondary'>Especially Web Design and Full-stack Development</h3>
+        <h3 className='hero__subtitle hero__subtitle--hero'>and I am a Website Specialist</h3>
+        <h3 className='hero__subtitle hero__subtitle--secondary'>I Design Develop and Document</h3>
     {/* </motion.div> */}
     </section>
 
