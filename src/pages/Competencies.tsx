@@ -167,7 +167,7 @@ export default function Competencies () {
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
-                        <img src={"src/assets/Tailwind_CSS_Logo.png"} alt="tailwind" />
+                        <img src={"src/assets/tailwind-logo.png"} alt="tailwind" />
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>TailwindCSS</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
@@ -182,7 +182,7 @@ export default function Competencies () {
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
-                        <img src={"src/assets/reactlogo.png"} className = "competencies__accordion-header-img" alt="React" />
+                        <img src={"src/assets/react-logo.png"} className = "competencies__accordion-header-img" alt="React" />
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>React + React Native</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
