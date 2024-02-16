@@ -138,7 +138,7 @@ export default function Competencies () {
                         <ExpandMoreIcon />
                     }>
                         <img src={"src/assets/Tailwind_CSS_Logo.png"} alt="tailwind" />
-                        <Typography className="competencies__accordion--header competencies__accordion"><h4>Tailwind</h4></Typography>
+                        <Typography className="competencies__accordion--header competencies__accordion"><h4>TailwindCSS</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
                     <img src={"src/assets/javascript-example.gif"} alt="tailwind" />
