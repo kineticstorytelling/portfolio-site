@@ -80,7 +80,7 @@ export default function Competencies () {
                         <img src={"src/assets/javascript-example.gif"} alt="typescript" />
                         </AccordionDetails>
                     </Accordion>
-                    
+
                     <Accordion className="competencies__accordion--item  "sx={{ 
                             backgroundColor: "rgba(195, 196, 197, 0.466)",
                             boxShadow: 3
@@ -88,10 +88,10 @@ export default function Competencies () {
                         <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                             <ExpandMoreIcon />
                         }>
-                            <img src={"src/assets/Typescript_logo_2020.svg.png"} alt="typescript" />
+                            <img src={"src/assets/pythonlogo1.png"} alt="Python" />
                             <Typography className="competencies__accordion--header competencies__accordion"><h4>Python</h4></Typography>
                         </AccordionSummary>
-                        <AccordionDetails >
+                        <AccordionDetails>
                         <img src={"src/assets/javascript-example.gif"} alt="Python" />
                         </AccordionDetails>
                     </Accordion>
@@ -103,7 +103,7 @@ export default function Competencies () {
                         <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                             <ExpandMoreIcon />
                         }>
-                            <img src={"src/assets/Typescript_logo_2020.svg.png"} alt="PHP" />
+                            <img src={"src/assets/phplogo.png"} alt="PHP" />
                             <Typography className="competencies__accordion--header competencies__accordion"><h4>PHP</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails >
