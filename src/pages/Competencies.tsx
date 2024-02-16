@@ -220,7 +220,7 @@ export default function Competencies () {
                     </AccordionDetails>
                 </Accordion>
 
-                <Accordion className="competencies__accordion--item  "sx={{ 
+                {/* <Accordion className="competencies__accordion--item  "sx={{ 
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
                         boxShadow: 3
                     }} >
@@ -233,7 +233,7 @@ export default function Competencies () {
                     <AccordionDetails >
                     <img src={"src/assets/javascript-example.gif"} alt="Mongodb" />
                     </AccordionDetails>
-                </Accordion>
+                </Accordion> */}
 
                 <Accordion className="competencies__accordion--item  "sx={{ 
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
