@@ -31,7 +31,7 @@ export default function Competencies () {
                             <Typography className="competencies__accordion competencies__accordion--header"><h4>HTML</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails >
-                            <img src={"/src/assets/sass-example.gif"} alt="CSS" />
+                            <img src={"/src/assets/sass-example.gif"} alt="HTML" />
                         </AccordionDetails>
                     </Accordion> 
 
