@@ -227,11 +227,11 @@ export default function Competencies () {
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
-                        <img src={"/src/assets/flask-logo.png"} alt="NextJS" />
-                        <Typography className="competencies__accordion--header competencies__accordion"><h4>NextJS</h4></Typography>
+                        <img src={"/src/assets/flask-logo.png"} alt="Flask" />
+                        <Typography className="competencies__accordion--header competencies__accordion"><h4>Flask</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
-                    <img src={"src/assets/html-example.gif"} alt="NextJS" />
+                    <img src={"src/assets/html-example.gif"} alt="Flask" />
                     </AccordionDetails>
                 </Accordion>
 
