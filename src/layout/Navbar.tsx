@@ -1,11 +1,12 @@
 import '../styles/_navbar.scss'
 import '../styles/_logo.scss'
+import '../styles/_buttons.scss'
 
 const Navbar = () => {
   return (
     <>
         <header>
-            <button className="logo__button">
+            <button className="logo__btn">
                 <img src="/src/assets/mylogo.png" alt="my logo" className="logo" />
             </button>
             <h3 className="touch__logo">Click the Logo!</h3>
