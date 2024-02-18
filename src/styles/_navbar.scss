@@ -29,7 +29,7 @@ header{
   
   }
   
-  .nav_list li a{
+  .nav__list li a{
       font-family: var(--ff-secondary);
         &:hover{
         color: var(--clr-accent);
@@ -45,7 +45,7 @@ header{
           right: 19rem;
           top: -1rem;
         }
-        .nav_list{
+        .nav__list{
           display: flex;
           flex-direction: column;
           align-items: center;
