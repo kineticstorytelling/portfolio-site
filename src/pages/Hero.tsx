@@ -1,4 +1,3 @@
-import Reveal from '../components/Reveal'
 import {useEffect, useRef} from 'react';
 import { motion, useInView, useTransform, useScroll, useAnimation} from 'framer-motion';
 import '../styles/_hero.scss'
