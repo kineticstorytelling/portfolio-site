@@ -134,16 +134,6 @@ return(
         {/* <AnimatedText text="Hi" /> */}
      {/* </div> */}
 
-   {/* <motion.div
-                variants={{
-                    hidden: {opacity: 0, y: 75},
-                    visible: {opacity: 1, y: 0},
-                }}
-                initial= 'hidden'
-                // animate= {mainControls}
-                animate = {mainControls}
-                transition={{duration:0.5, delay: 1.5}}
-            > */}
         <motion.h3 className='hero__title hero__title--name'
                 variants={{
                     hidden: {opacity: 0, y: 75},
@@ -195,7 +185,6 @@ return(
   }
   export const AnimatedText = ({text,}: AnimatedTextProps) =>{
     return (
-      // <Wrapper className={className}>
       <>
         {/* <span>{text}</span> */}
         <motion.span initial="hidden" animate="visible" aria-hidden>
@@ -204,7 +193,6 @@ return(
           ))}
         </motion.span>
 </>
-      // </Wrapper> 
     )
           
   }
