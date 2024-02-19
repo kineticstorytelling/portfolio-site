@@ -71,7 +71,6 @@ export const Hero = () => {
   
 // });
   
-  const ref = useRef(null);
   // this is for the parallax scroll
   // const { scrollYProgress } = useScroll({
   //   target: ref,
@@ -86,7 +85,6 @@ export const Hero = () => {
 
 
   const greeting = "Hi, I'm";
-  const ddd = "design develop document"
   const sentence = {
     hidden: { opacity: 1},
     visible: {
