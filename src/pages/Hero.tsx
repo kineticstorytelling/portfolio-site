@@ -175,9 +175,6 @@ return(
           Designs Develops Documents
           </motion.h3>
     {/* </motion.div> */}
-          {/* <h3 className='hero__subtitle hero__subtitle--secondary'>Designs</h3> */}
-          {/* <h3 className='hero__subtitle hero__subtitle--secondary' style={{float:'right'}}>Develops</h3> */}
-          {/* <h3 className='hero__subtitle hero__subtitle--secondary'>Documents</h3> */}
     </section>
 
     </>
@@ -212,53 +209,4 @@ return(
           
   }
 
-
-
-  // You can create a hook that wraps the logic of animating components on "in view"
-
-  // const useAnimateOnInView = () => {
-  //     const controls = useAnimation();
-  //     const { ref, inView } = useInView();
-
-  // Tracks element visibility with useInView, returning a ref and inView state.
-      
-  //     useEffect(() => { Uses useEffect to trigger animations based on visibility:
-  //         if (inView) {
-  //           controls.start("visible");
-  //         }
-  //         if (!inView) {
-  //           controls.start("hidden");
-  //         }
-  //       }, [controls, inView]);
-      
-  
-  //      return { ref, controls }; Returns the ref and controls for later use.
-  // }
-  
-  // The use the hook for all things you want to animate
-  
-  // const { ref: bananaRef, controls: bananaControl } = useAnimateOnInView();
-  // const { ref: appleRef, controls: appleControl } = useAnimateOnInView();
-  
-  // and then hook up the refs to the related dom elements.
-  
-  // <motion.section
-  //   ref={bananaRef}
-  //   variants={fadeFromBottom}
-  //   initial='hidden'
-  //   animate={bananaControl}
-  // >
-  //    <img src={image} alt='banana'>
-  // </motion.section>
-  // <motion.section
-  //   ref={appleRef}
-  //   variants={fadeFromLeft}
-  //   initial='hidden'
-  //   animate={appleControl}
-  // >
-  //    <img src={image} alt='apple'>
-  // </motion.section>
-  
-  // you could also just duplicate the existing use of useInView hook and add some logic to the useEffect. I think this hook cleans it up a bit though.
-  
 export default Hero
