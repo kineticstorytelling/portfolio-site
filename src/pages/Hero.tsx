@@ -86,6 +86,7 @@ export const Hero = () => {
 
 
   const greeting = "Hi, I'm";
+  const ddd = "design develop document"
   const sentence = {
     hidden: { opacity: 1},
     visible: {
@@ -103,14 +104,6 @@ export const Hero = () => {
       y: 0,
     },
   }
-  const isInView = useInView(ref, {once:true});
-  const mainControls = useAnimation();
-    useEffect(()=>{
-        if (isInView){
-            mainControls.start("visible");
-        }
-    }, [isInView]);
-
 
 return(
     <>
@@ -128,7 +121,7 @@ return(
         variants={sentence}
         initial="hidden"
         animate="visible"
-        transition={{delay: 1}}
+        transition={{duration: 1}}
         >
           {greeting.split("").map((char, index) => {
             return (
@@ -151,7 +144,15 @@ return(
                 animate = {mainControls}
                 transition={{duration:0.5, delay: 1.5}}
             > */}
-        <Reveal><h3 className='hero__title hero__title--name'>Luke Nam</h3></Reveal>
+        <motion.h3 className='hero__title hero__title--name'
+                variants={{
+                    hidden: {opacity: 0, y: 75},
+                    visible: {opacity: 1, y: 0},
+                }}
+                initial= 'hidden'
+                animate= 'visible'
+                transition={{duration:0.5, delay: 0.5 }}
+            >Luke Nam</motion.h3>
       {/* </motion.div> */}
    <motion.div
                 variants={{
@@ -159,13 +160,24 @@ return(
                     visible: {opacity: 1, y: 0},
                 }}
                 initial= 'hidden'
-                animate= {mainControls}
-                transition={{duration:0.5, delay: 2 }}
+                animate= 'visible'
+                transition={{duration:0.5, delay: 1 }}
             >
+                <h3 className='hero__subtitle hero__subtitle--hero'>I am a Website Specialist who,</h3>
     </motion.div>
-        <h3 className='hero__subtitle hero__subtitle--hero'>and I am a Website Specialist who,</h3>
-        <h3 className='hero__subtitle hero__subtitle--secondary'>Designs Develops Documents</h3>
+    <motion.h3
+        className='hero__title hero__subtitle--secondary'
+        variants={sentence}
+        initial={{opacity: 0, translateX: -75}}
+        animate={{opacity: 1, translateX: 0}}
+        transition={{duration: 2, delay: 1.5}}
+        >
+          Designs Develops Documents
+          </motion.h3>
     {/* </motion.div> */}
+          {/* <h3 className='hero__subtitle hero__subtitle--secondary'>Designs</h3> */}
+          {/* <h3 className='hero__subtitle hero__subtitle--secondary' style={{float:'right'}}>Develops</h3> */}
+          {/* <h3 className='hero__subtitle hero__subtitle--secondary'>Documents</h3> */}
     </section>
 
     </>
@@ -199,4 +211,54 @@ return(
     )
           
   }
+
+
+
+  // You can create a hook that wraps the logic of animating components on "in view"
+
+  // const useAnimateOnInView = () => {
+  //     const controls = useAnimation();
+  //     const { ref, inView } = useInView();
+
+  // Tracks element visibility with useInView, returning a ref and inView state.
+      
+  //     useEffect(() => { Uses useEffect to trigger animations based on visibility:
+  //         if (inView) {
+  //           controls.start("visible");
+  //         }
+  //         if (!inView) {
+  //           controls.start("hidden");
+  //         }
+  //       }, [controls, inView]);
+      
+  
+  //      return { ref, controls }; Returns the ref and controls for later use.
+  // }
+  
+  // The use the hook for all things you want to animate
+  
+  // const { ref: bananaRef, controls: bananaControl } = useAnimateOnInView();
+  // const { ref: appleRef, controls: appleControl } = useAnimateOnInView();
+  
+  // and then hook up the refs to the related dom elements.
+  
+  // <motion.section
+  //   ref={bananaRef}
+  //   variants={fadeFromBottom}
+  //   initial='hidden'
+  //   animate={bananaControl}
+  // >
+  //    <img src={image} alt='banana'>
+  // </motion.section>
+  // <motion.section
+  //   ref={appleRef}
+  //   variants={fadeFromLeft}
+  //   initial='hidden'
+  //   animate={appleControl}
+  // >
+  //    <img src={image} alt='apple'>
+  // </motion.section>
+  
+  // you could also just duplicate the existing use of useInView hook and add some logic to the useEffect. I think this hook cleans it up a bit though.
+  
 export default Hero
