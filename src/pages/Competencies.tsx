@@ -227,7 +227,7 @@ export default function Competencies () {
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
-                        <img src={"/src/assets/nextjs-logo.png"} alt="Framer Motion" />
+                        <img src={"/src/assets/framer-logo.svg"} alt="Framer Motion" />
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>Framer Motion</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
