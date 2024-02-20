@@ -351,7 +351,7 @@ export default function Competencies () {
                       <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
-                          <img src={"src/assets/hubspot-logo.png"} alt="Hubspot" />
+                          <img src={"/src/assets/"} alt="Hubspot" />
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Webflow</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
