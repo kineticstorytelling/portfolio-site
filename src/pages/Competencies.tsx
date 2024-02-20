@@ -351,6 +351,21 @@ export default function Competencies () {
                       <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
+                          <img src={"src/assets/hubspot-logo.png"} alt="Hubspot" />
+                          <Typography className="competencies__accordion--header competencies__accordion"><h4>Webflow</h4></Typography>
+                      </AccordionSummary>
+                      <AccordionDetails >
+                      <img src={"src/assets/elementor-example.gif"} alt="Hubspot" />
+                      </AccordionDetails>
+                </Accordion>
+
+                <Accordion className="competencies__accordion--item  "sx={{ 
+                          backgroundColor: "rgba(195, 196, 197, 0.466)",
+                          boxShadow: 3
+                      }} >
+                      <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
+                          <ExpandMoreIcon />
+                      }>
                           <img src={"src/assets/elementor.svg"} alt="Elementor" />
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Elementor</h4></Typography>
                       </AccordionSummary>
