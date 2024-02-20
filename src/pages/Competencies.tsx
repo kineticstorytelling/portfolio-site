@@ -351,11 +351,11 @@ export default function Competencies () {
                       <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
-                          <img src={"src/assets/Webflow-logo.png"} alt="Hubspot" />
+                          <img src={"src/assets/Webflow-logo.png"} alt="Webflow" />
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Webflow</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"src/assets/elementor-example.gif"} alt="Hubspot" />
+                      <img src={"src/assets/elementor-example.gif"} alt="Webflow" />
                       </AccordionDetails>
                 </Accordion>
 
