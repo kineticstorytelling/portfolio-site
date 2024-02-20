@@ -227,6 +227,35 @@ export default function Competencies () {
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
+                        <img src={"/src/assets/nextjs-logo.png"} alt="Framer Motion" />
+                        <Typography className="competencies__accordion--header competencies__accordion"><h4>Framer Motion</h4></Typography>
+                    </AccordionSummary>
+                    <AccordionDetails >
+                    <img src={"src/assets/html-example.gif"} alt="Framer Motion" />
+                    </AccordionDetails>
+                </Accordion>
+                <Accordion className="competencies__accordion--item  "sx={{ 
+                        backgroundColor: "rgba(195, 196, 197, 0.466)",
+                        boxShadow: 3
+                    }} >
+                    <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
+                        <ExpandMoreIcon />
+                    }>
+                        <img src={"/src/assets/nextjs-logo.png"} alt="NextJS" />
+                        <Typography className="competencies__accordion--header competencies__accordion"><h4>Three.js</h4></Typography>
+                    </AccordionSummary>
+                    <AccordionDetails >
+                    <img src={"src/assets/html-example.gif"} alt="NextJS" />
+                    </AccordionDetails>
+                </Accordion>
+
+                <Accordion className="competencies__accordion--item  "sx={{ 
+                        backgroundColor: "rgba(195, 196, 197, 0.466)",
+                        boxShadow: 3
+                    }} >
+                    <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
+                        <ExpandMoreIcon />
+                    }>
                         <img src={"/src/assets/flask-logo.png"} alt="Flask" />
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>Flask</h4></Typography>
                     </AccordionSummary>
