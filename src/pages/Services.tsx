@@ -18,7 +18,7 @@ const Services = () => {
         </div>
         <div className="services__body--content">
           <h3>Document</h3>
-          <p>I believe in using whatever methods that are required to creating great economical website solutions which is why I have experience using Wordpress, Shopify and Hubspot.</p>
+          <p>Technical Writing, UX Writing, Copywriting are all forms that I am comfortable working with. Writing is my first love</p>
         </div>
       </div>
     </section>
