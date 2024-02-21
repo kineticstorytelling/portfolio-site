@@ -13,7 +13,7 @@ const Services = () => {
           <p>Web Design that is pragmatic but also aesthetically pleasing is my goal. Crafting creative solutions that improve and enhance the designscape is extremely important to me. I've worked in Story Design and Filmmaking.</p>
         </div>
         <div className="services__body--content">
-          <h3>Development</h3>
+          <h3>Develop</h3>
           <p>I am a Front-end Developer who is passionate about creating beautiful original websites especially in regards to cultural fusion.</p>
         </div>
         <div className="services__body--content">
