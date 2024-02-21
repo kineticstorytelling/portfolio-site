@@ -18,7 +18,7 @@ const Services = () => {
         </div>
         <div className="services__body--content">
           <h3>Document</h3>
-          <p>Technical Writing, UX Writing, Copywriting are all forms that I am comfortable working with. Writing is my first love</p>
+          <p>Technical Writing, UX Writing, Copywriting are all forms that I am comfortable working with. Writing is my first love and one that I deftly employ in this stage of my career</p>
         </div>
       </div>
     </section>
