@@ -17,7 +17,7 @@ const Services = () => {
           <p>I am a Front-end Developer who is passionate about creating beautiful original websites especially in regards to cultural fusion.</p>
         </div>
         <div className="services__body--content">
-          <h3>CMS</h3>
+          <h3>Document</h3>
           <p>I believe in using whatever methods that are required to creating great economical website solutions which is why I have experience using Wordpress, Shopify and Hubspot.</p>
         </div>
       </div>
