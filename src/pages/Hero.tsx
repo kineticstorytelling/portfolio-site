@@ -126,7 +126,7 @@ return(
           })}
         </motion.h3>
 
-        <motion.h3 className='hero__title hero__title--name'
+          <motion.h3 className='hero__title hero__title--name'
                 variants={{
                     hidden: {opacity: 0, y: 75},
                     visible: {opacity: 1, y: 0},
@@ -134,9 +134,11 @@ return(
                 initial= 'hidden'
                 animate= 'visible'
                 transition={{duration:0.5, delay: 0.5 }}
-            >Luke Nam</motion.h3>
+            >
+          Luke Nam
+          </motion.h3>
 
-   <motion.div
+          <motion.div
                 variants={{
                     hidden: {opacity: 0, y: 75},
                     visible: {opacity: 1, y: 0},
@@ -145,8 +147,9 @@ return(
                 animate= 'visible'
                 transition={{duration:0.5, delay: 1 }}
             >
-                <h3 className='hero__subtitle hero__subtitle--hero'>I am a Website Specialist who,</h3>
-    </motion.div>
+            <h3 className='hero__subtitle hero__subtitle--hero'>I am a Website Specialist who,</h3>
+          </motion.div>
+
           <motion.h3
               className='hero__title hero__subtitle--secondary'
               variants={sentence}
