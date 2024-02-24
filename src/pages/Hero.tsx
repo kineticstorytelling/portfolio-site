@@ -135,7 +135,7 @@ return(
                 animate= 'visible'
                 transition={{duration:0.5, delay: 0.5 }}
             >Luke Nam</motion.h3>
-            
+
    <motion.div
                 variants={{
                     hidden: {opacity: 0, y: 75},
@@ -147,16 +147,15 @@ return(
             >
                 <h3 className='hero__subtitle hero__subtitle--hero'>I am a Website Specialist who,</h3>
     </motion.div>
-    <motion.h3
-        className='hero__title hero__subtitle--secondary'
-        variants={sentence}
-        initial={{opacity: 0, translateX: -75}}
-        animate={{opacity: 1, translateX: 0}}
-        transition={{duration: 2, delay: 1.5}}
-        >
+          <motion.h3
+              className='hero__title hero__subtitle--secondary'
+              variants={sentence}
+              initial={{opacity: 0, translateX: -75}}
+              animate={{opacity: 1, translateX: 0}}
+              transition={{duration: 2, delay: 1.5}}
+              >
           Designs Develops Documents
           </motion.h3>
-    {/* </motion.div> */}
     </section>
 
     </>
