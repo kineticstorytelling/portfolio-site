@@ -105,9 +105,6 @@ export const Hero = () => {
 return(
     <>
     <section className='hero' id='home'>
-    {/* <motion.div 
-      className='hero'
-    > */}
 
    {/* <Canvas style={{ position: 'absolute' }}>
         <Scene />
@@ -129,7 +126,6 @@ return(
           })}
         </motion.h3>
         {/* <AnimatedText text="Hi" /> */}
-     {/* </div> */}
 
         <motion.h3 className='hero__title hero__title--name'
                 variants={{
