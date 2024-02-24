@@ -125,7 +125,6 @@ return(
             )
           })}
         </motion.h3>
-        {/* <AnimatedText text="Hi" /> */}
 
         <motion.h3 className='hero__title hero__title--name'
                 variants={{
@@ -136,7 +135,7 @@ return(
                 animate= 'visible'
                 transition={{duration:0.5, delay: 0.5 }}
             >Luke Nam</motion.h3>
-      {/* </motion.div> */}
+            
    <motion.div
                 variants={{
                     hidden: {opacity: 0, y: 75},
