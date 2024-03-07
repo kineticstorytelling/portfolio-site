@@ -9,7 +9,7 @@ const Services = () => {
      
      <Reveal><h2 className="services__title">What I do</h2></Reveal>
 
-      {/* <div className="services__body">
+      <div className="services__body">
         <div className="services__body--content">
           <h3>Design</h3>
           <p>Web Design that is pragmatic but also aesthetically pleasing is my goal. Crafting creative solutions that improve and enhance the designscape is extremely important to me. I've worked in Story Design and Filmmaking.</p>
@@ -22,7 +22,7 @@ const Services = () => {
           <h3>Document</h3>
           <p>Technical Writing, UX Writing, Copywriting are all forms that I am comfortable working with. Writing is my first love and I enjoy making and writing content</p>
         </div>
-      </div> */}
+      </div>
     </section>
   )
 }
