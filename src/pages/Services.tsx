@@ -7,8 +7,7 @@ const Services = () => {
     <section className="my-services" id="services">
       
      
-     {/* <Reveal><h2 className="services__title">What I do</h2></Reveal> */}
-     <h2 className="services__title">What I do</h2>
+     <Reveal><h2 className="services__title">What I do</h2></Reveal>
 
       <div className="services__body">
         <div className="services__body--content">
