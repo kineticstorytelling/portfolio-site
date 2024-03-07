@@ -6,7 +6,10 @@ const Services = () => {
   return (
     <section className="my-services" id="services">
       
-     <Reveal><h2 className="services__title">What I do</h2></Reveal>
+     
+     {/* <Reveal><h2 className="services__title">What I do</h2></Reveal> */}
+     <h2 className="services__title">What I do</h2>
+
       <div className="services__body">
         <div className="services__body--content">
           <h3>Design</h3>
@@ -14,11 +17,11 @@ const Services = () => {
         </div>
         <div className="services__body--content">
           <h3>Develop</h3>
-          <p>I am a Front-end Developer who is passionate about creating beautiful original websites especially in regards to cultural fusion.</p>
+          <p>I am a Full Stack Developer who is passionate about creating beautiful original websites especially in regards to cultural fusion.</p>
         </div>
         <div className="services__body--content">
           <h3>Document</h3>
-          <p>Technical Writing, UX Writing, Copywriting are all forms that I am comfortable working with. Writing is my first love and one that I deftly employ in this stage of my career</p>
+          <p>Technical Writing, UX Writing, Copywriting are all forms that I am comfortable working with. Writing is my first love and I enjoy making and writing content</p>
         </div>
       </div>
     </section>

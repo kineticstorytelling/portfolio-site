@@ -1,26 +1,55 @@
 .my-services{
     text-align: center;
 }
+
+
+
+.services__title{
+  opacity: 0;
+  transition: opacity 1 230ms;
+}
+
+
   
 .services__title{
     color: var(--clr-dark);
     text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
-    position: relative;
-}
-  /* this is the line under what I do */
-.services__title::after{
-    content: '';
-    display: block;
-    width: 21%;
-    height: 1.4px;
-    margin: 0.1em auto .7em;
-    background: currentColor;
-    opacity: 0.25;
-}
-.service h3{
-    text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+    // position: relative;
+    // animation: faded 1s;
+    // animation-delay: -0.2s;
+    // transform-origin: center bottom;
 }
 
+@keyframes faded {
+  0% {
+    opacity: 0;
+    transform: scale3d(.75,.75,1);
+  }
+  
+  70% {
+    opacity: 0;
+    transform: scale3d(.75,.75,1);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: scale3d(1,1,1);
+  }
+}
+
+/* this is the line under what I do */
+.services__title::after{
+  content: '';
+  display: block;
+  width: 21%;
+  height: 1.4px;
+  margin: 0.1em auto .7em;
+  background: currentColor;
+  opacity: 0.25;
+}
+.service h3{
+  text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
   @media (min-width: 800px){
   
     .services{

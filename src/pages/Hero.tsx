@@ -125,6 +125,10 @@ return(
             )
           })}
         </motion.h3>
+        {/* <div className='typewriter'>
+
+        <h1 className='hero__title hero__title--hero'>Hi I'm</h1>
+        </div> */}
 
           <motion.h3 className='hero__title hero__title--name'
                 variants={{
