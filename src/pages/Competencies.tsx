@@ -92,7 +92,7 @@ export default function Competencies () {
                             <Typography className="competencies__accordion--header competencies__accordion"><h4>Python</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                        <img src={"src} alt="Python" />
+                        <img src={"src/assets/Python_Example.gif"} alt="Python" />
                         </AccordionDetails>
                     </Accordion>
 
