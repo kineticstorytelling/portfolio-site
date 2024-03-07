@@ -5,10 +5,9 @@
 
 
 .services__title{
-  opacity: 0;
-  transition: opacity 1 230ms;
+  // opacity: 0;
+  // transition: opacity 1 230ms;
 }
-
 
   
 .services__title{
@@ -20,22 +19,22 @@
     // transform-origin: center bottom;
 }
 
-@keyframes faded {
-  0% {
-    opacity: 0;
-    transform: scale3d(.75,.75,1);
-  }
+// @keyframes faded {
+//   0% {
+//     opacity: 0;
+//     transform: scale3d(.75,.75,1);
+//   }
   
-  70% {
-    opacity: 0;
-    transform: scale3d(.75,.75,1);
-  }
+//   70% {
+//     opacity: 0;
+//     transform: scale3d(.75,.75,1);
+//   }
   
-  100% {
-    opacity: 1;
-    transform: scale3d(1,1,1);
-  }
-}
+//   100% {
+//     opacity: 1;
+//     transform: scale3d(1,1,1);
+//   }
+// }
 
 /* this is the line under what I do */
 .services__title::after{
