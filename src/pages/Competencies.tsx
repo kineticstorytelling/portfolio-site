@@ -62,7 +62,7 @@ export default function Competencies () {
                             <Typography className="competencies__accordion--header competencies__accordion"><h4>Javascript</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails >
-                        <img src={"src/assets/javascript-example.gif"} alt="Javascript" />
+                        <img src={"/src/assets/"} alt="Javascript" />
                         </AccordionDetails>
                     </Accordion>
                     
