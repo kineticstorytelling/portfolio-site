@@ -269,7 +269,7 @@ export default function Competencies () {
                     <li>Nextjs</li>
                     <li><img src={"/src/assets/flask-logo.png"} alt="Flask" /> Flask</li>
                     <li><img src={"src/assets/three-js-icon.svg"} alt="Three.js" /> Three.js</li>
-                    <li>Framer Motion</li>
+                    <li><img src={"/src/assets/framer-logo.svg"} alt="Framer Motion" style={{height:'40px'}} /> Framer Motion</li>
                     <li>React Three Fiber</li>
                 </ul>
             </div>

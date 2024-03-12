@@ -39,12 +39,12 @@
 }
 
 .listblock{
-  text-align: center;
+  margin: auto;
 }
 .list{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 4%;
+  padding: 5% 20%;
 }
 .list li{
   padding: 10px 0 10px 0;
