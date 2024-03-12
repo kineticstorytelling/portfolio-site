@@ -266,11 +266,11 @@ export default function Competencies () {
             <div className="listblock">
                 <ul className="list">
                     <li>Nodejs</li>
-                    <li>Nextjs</li>
+                    <li><img src={"/src/assets/nextjs-logo.png"} alt="NextJS" /> Nextjs</li>
                     <li><img src={"/src/assets/flask-logo.png"} alt="Flask" /> Flask</li>
                     <li><img src={"src/assets/three-js-icon.svg"} alt="Three.js" /> Three.js</li>
-                    <li><img src={"/src/assets/framer-logo.svg"} alt="Framer Motion" style={{height:'40px'}} /> Framer Motion</li>
-                    <li>React Three Fiber</li>
+                    <li><img src={"/src/assets/framer-logo.svg"} alt="Framer Motion" style={{height:'45px'}} /> Framer Motion</li>
+                    <li> React Three Fiber</li>
                 </ul>
             </div>
 
