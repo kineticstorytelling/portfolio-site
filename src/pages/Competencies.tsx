@@ -204,7 +204,7 @@ export default function Competencies () {
                     </AccordionDetails>
                 </Accordion>
 
-                {/* <Accordion className="competencies__accordion--item  "sx={{ 
+                <Accordion className="competencies__accordion--item  "sx={{ 
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
                         boxShadow: 3
                     }} >
@@ -217,7 +217,7 @@ export default function Competencies () {
                     <AccordionDetails >
                     <img src={"src/assets/javascript-example.gif"} alt="Mongodb" />
                     </AccordionDetails>
-                </Accordion> */}
+                </Accordion>
 
                 {/* <Accordion className="competencies__accordion--item  "sx={{ 
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
@@ -294,6 +294,7 @@ export default function Competencies () {
                 {/* </Accordion> */}
             <div className="listblock">
                 <ul className="list">
+                    <li><img src={"src/assets/jquery-logo.png"} alt="Jquery" /> jQuery</li>
                     <li><img src={"src/assets/nodejs-1-logo.png"} alt="NodeJS" /> Nodejs</li>
                     <li><img src={"/src/assets/nextjs-logo.png"} alt="NextJS" /> Nextjs</li>
                     <li><img src={"/src/assets/Expressjs-logo.png"} alt="ExpressJS" /> Expressjs</li>
@@ -319,7 +320,7 @@ export default function Competencies () {
                     </AccordionDetails>
                 </Accordion> */}
 
-                <Accordion className="competencies__accordion--item  "sx={{ 
+                {/* <Accordion className="competencies__accordion--item  "sx={{ 
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
                         boxShadow: 3
                       }} >
@@ -332,7 +333,7 @@ export default function Competencies () {
                     <AccordionDetails >
                     <img src={"src/assets/javascript-example.gif"} alt="jquery" />
                     </AccordionDetails>
-                </Accordion>
+                </Accordion> */}
 
 
                 <br />

@@ -40,14 +40,18 @@
 
 .listblock{
   margin: auto;
+  // background-color: #1f1f1f21;
 }
 .list{
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 5% 20%;
+  // background-color: #1f1f1f21;
 }
 .list li{
-  padding: 20px 0 20px 0;
+  padding: 20px;
+  font-weight: 650;
+  background-color: #1f1f1f0e;
 }
 .list li img{
   margin: 0 0 -20px 0;
