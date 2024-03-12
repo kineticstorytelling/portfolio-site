@@ -129,7 +129,22 @@ export default function Competencies () {
                   <br />
             <div className="competencies__category">
             <div className="competencies__category--label"><Reveal><h3>Frameworks and Libraries</h3></Reveal></div>
-                
+
+                 <Accordion className="competencies__accordion--item  "sx={{ 
+                        backgroundColor: "rgba(195, 196, 197, 0.466)",
+                        boxShadow: 3
+                    }} >
+                    <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
+                        <ExpandMoreIcon />
+                    }>
+                        <img src={"src/assets/react-logo.png"} className = "competencies__accordion-header-img" alt="React" />
+                        <Typography className="competencies__accordion--header competencies__accordion"><h4>React + React Native</h4></Typography>
+                    </AccordionSummary>
+                    <AccordionDetails >
+                    <img src={"src/assets/react-example.gif"} alt="React" />
+                    </AccordionDetails>
+                </Accordion>                        
+
                 <Accordion className="competencies__accordion--item  "sx={{ 
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
                         boxShadow: 3
@@ -175,20 +190,6 @@ export default function Competencies () {
                     </AccordionDetails>
                 </Accordion>
 
-                <Accordion className="competencies__accordion--item  "sx={{ 
-                        backgroundColor: "rgba(195, 196, 197, 0.466)",
-                        boxShadow: 3
-                    }} >
-                    <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
-                        <ExpandMoreIcon />
-                    }>
-                        <img src={"src/assets/react-logo.png"} className = "competencies__accordion-header-img" alt="React" />
-                        <Typography className="competencies__accordion--header competencies__accordion"><h4>React + React Native</h4></Typography>
-                    </AccordionSummary>
-                    <AccordionDetails >
-                    <img src={"src/assets/react-example.gif"} alt="React" />
-                    </AccordionDetails>
-                </Accordion>
                 <Accordion className="competencies__accordion--item  "sx={{ 
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
                         boxShadow: 3
