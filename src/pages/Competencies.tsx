@@ -190,7 +190,7 @@ export default function Competencies () {
                     </AccordionDetails>
                 </Accordion>
 
-                <Accordion className="competencies__accordion--item  "sx={{ 
+                {/* <Accordion className="competencies__accordion--item  "sx={{ 
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
                         boxShadow: 3
                     }} >
@@ -261,8 +261,8 @@ export default function Competencies () {
                     </AccordionSummary>
                     <AccordionDetails >
                     <img src={"src/assets/html-example.gif"} alt="Flask" />
-                    </AccordionDetails>
-                </Accordion>
+                    </AccordionDetails> */}
+                {/* </Accordion> */}
             <div className="listblock">
                 <ul className="list">
                     <li><img src={"src/assets/nodejs-1-logo.png"} alt="NodeJS" /> Nodejs</li>
