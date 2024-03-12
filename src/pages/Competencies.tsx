@@ -263,6 +263,16 @@ export default function Competencies () {
                     <img src={"src/assets/html-example.gif"} alt="Flask" />
                     </AccordionDetails>
                 </Accordion>
+            <div className="listblock">
+                <ul className="list">
+                    <li>Nodejs</li>
+                    <li>Nextjs</li>
+                    <li><img src={"/src/assets/flask-logo.png"} alt="Flask" /> Flask</li>
+                    <li><img src={"src/assets/three-js-icon.svg"} alt="Three.js" /> Three.js</li>
+                    <li>Framer Motion</li>
+                    <li>React Three Fiber</li>
+                </ul>
+            </div>
 
                 {/* <Accordion className="competencies__accordion--item  "sx={{ 
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
