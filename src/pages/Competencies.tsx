@@ -189,6 +189,35 @@ export default function Competencies () {
                     <img src={"src/assets/react-example.gif"} alt="React" />
                     </AccordionDetails>
                 </Accordion>
+                <Accordion className="competencies__accordion--item  "sx={{ 
+                        backgroundColor: "rgba(195, 196, 197, 0.466)",
+                        boxShadow: 3
+                    }} >
+                    <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
+                        <ExpandMoreIcon />
+                    }>
+                        <img src={"src/assets/Postgresql_elephant.svg.png"} alt="PostgreSQL" />
+                        <Typography className="competencies__accordion--header competencies__accordion"><h4>PostgreSQL</h4></Typography>
+                    </AccordionSummary>
+                    <AccordionDetails >
+                    <img src={"src/assets/javascript-example.gif"} alt="PostgreSQL" />
+                    </AccordionDetails>
+                </Accordion>
+
+                {/* <Accordion className="competencies__accordion--item  "sx={{ 
+                        backgroundColor: "rgba(195, 196, 197, 0.466)",
+                        boxShadow: 3
+                    }} >
+                    <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
+                        <ExpandMoreIcon />
+                    }>
+                        <img src={"src/assets/mongodb-logo.png"} alt="Mongodb" />
+                        <Typography className="competencies__accordion--header competencies__accordion"><h4>MongoDB</h4></Typography>
+                    </AccordionSummary>
+                    <AccordionDetails >
+                    <img src={"src/assets/javascript-example.gif"} alt="Mongodb" />
+                    </AccordionDetails>
+                </Accordion> */}
 
                 {/* <Accordion className="competencies__accordion--item  "sx={{ 
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
@@ -305,35 +334,6 @@ export default function Competencies () {
                     </AccordionDetails>
                 </Accordion>
 
-                {/* <Accordion className="competencies__accordion--item  "sx={{ 
-                        backgroundColor: "rgba(195, 196, 197, 0.466)",
-                        boxShadow: 3
-                    }} >
-                    <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
-                        <ExpandMoreIcon />
-                    }>
-                        <img src={"src/assets/mongodb-logo.png"} alt="Mongodb" />
-                        <Typography className="competencies__accordion--header competencies__accordion"><h4>MongoDB</h4></Typography>
-                    </AccordionSummary>
-                    <AccordionDetails >
-                    <img src={"src/assets/javascript-example.gif"} alt="Mongodb" />
-                    </AccordionDetails>
-                </Accordion> */}
-
-                <Accordion className="competencies__accordion--item  "sx={{ 
-                        backgroundColor: "rgba(195, 196, 197, 0.466)",
-                        boxShadow: 3
-                    }} >
-                    <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
-                        <ExpandMoreIcon />
-                    }>
-                        <img src={"src/assets/Postgresql_elephant.svg.png"} alt="PostgreSQL" />
-                        <Typography className="competencies__accordion--header competencies__accordion"><h4>PostgreSQL</h4></Typography>
-                    </AccordionSummary>
-                    <AccordionDetails >
-                    <img src={"src/assets/javascript-example.gif"} alt="PostgreSQL" />
-                    </AccordionDetails>
-                </Accordion>
 
                 <br />
 
