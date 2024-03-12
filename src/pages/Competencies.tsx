@@ -265,7 +265,7 @@ export default function Competencies () {
                 </Accordion>
             <div className="listblock">
                 <ul className="list">
-                    <li>Nodejs</li>
+                    <li><img src={"src/assets/nodejs-1-logo.png"} alt="NodeJS" /> Nodejs</li>
                     <li><img src={"/src/assets/nextjs-logo.png"} alt="NextJS" /> Nextjs</li>
                     <li><img src={"/src/assets/flask-logo.png"} alt="Flask" /> Flask</li>
                     <li><img src={"src/assets/three-js-icon.svg"} alt="Three.js" /> Three.js</li>
