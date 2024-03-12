@@ -396,7 +396,7 @@ export default function Competencies () {
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Webflow</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"src/assets/elementor-example.gif"} alt="Webflow" />
+                      <img src={"/src/assets/Webflow_ex.gif"} alt="Webflow" />
                       </AccordionDetails>
                 </Accordion>
 
