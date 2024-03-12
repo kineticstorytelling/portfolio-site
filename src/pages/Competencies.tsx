@@ -381,7 +381,7 @@ export default function Competencies () {
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Hubspot</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"src/assets/elementor-example.gif"} alt="Hubspot" />
+                      <img src={"/src/assets/Hubspot_ex.gif"} alt="Hubspot" />
                       </AccordionDetails>
                 </Accordion>
 
