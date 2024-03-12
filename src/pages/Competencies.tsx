@@ -352,7 +352,7 @@ export default function Competencies () {
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Wordpress</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"src/assets/elementor-example.gif"} alt="Wordpress" />
+                      <img src={"/src/assets/Wordpress_ex.gif"} alt="Wordpress" />
                       </AccordionDetails>
                 </Accordion>
                  
