@@ -366,7 +366,7 @@ export default function Competencies () {
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Shopify</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"src/assets/elementor-example.gif"} alt="Shopify" />
+                      <img src={"/src/assets/Shopify_ex.gif"} alt="Shopify" />
                       </AccordionDetails>
                 </Accordion>
               
