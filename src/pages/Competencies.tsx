@@ -107,7 +107,7 @@ export default function Competencies () {
                             <Typography className="competencies__accordion--header competencies__accordion"><h4>PHP</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails >
-                        <img src={"/src/assets/php_example.gif"} alt="PHP" />
+                        <img src={"/src/assets/Php_ex.gif"} alt="PHP" />
                         </AccordionDetails>
                     </Accordion>
                     
