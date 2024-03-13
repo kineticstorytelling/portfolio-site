@@ -302,7 +302,7 @@ export default function Competencies () {
                     <li><img src={"/src/assets/flask-logo.png"} alt="Flask" /> Flask</li>
                     <li><img src={"src/assets/three-js-icon.svg"} alt="Three.js" /> Three.js</li>
                     <li><img src={"/src/assets/framer-logo.svg"} alt="Framer Motion" style={{height:'45px'}} /> Framer Motion</li>
-                    <li><img src={"/src/assets/gsap-greensock-logo.svg"} alt="GSAP" /> GSAP</li>
+                    <li><img src={"/src/assets/gsap-greensock-logo.svg"} alt="GSAP" style={{height:'45px'}} /> GSAP</li>
                 </ul>
             </div>
 
