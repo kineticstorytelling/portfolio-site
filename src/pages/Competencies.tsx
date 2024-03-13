@@ -201,7 +201,7 @@ export default function Competencies () {
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>PostgreSQL</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
-                    <img src={"src/assets/javascript-example.gif"} alt="PostgreSQL" />
+                    <img src={"/src/assets/Postgresql_ex.gif"} alt="PostgreSQL" />
                     </AccordionDetails>
                 </Accordion>
 
