@@ -296,13 +296,13 @@ export default function Competencies () {
             <div className="competencies__framework--block">
                 <ul className="competencies__framework--list">
                     <li><img src={"src/assets/jquery-logo.png"} alt="Jquery" /> jQuery</li>
-                    <li><img src={"src/assets/nodejs-1-logo.png"} alt="NodeJS" /> Nodejs</li>
-                    <li><img src={"/src/assets/nextjs-logo.png"} alt="NextJS" /> Nextjs</li>
-                    <li><img src={"/src/assets/Expressjs-logo.png"} alt="ExpressJS" /> Expressjs</li>
+                    <li><img src={"src/assets/nodejs-1-logo.png"} alt="NodeJS" /> Node.js</li>
+                    <li><img src={"/src/assets/nextjs-logo.png"} alt="NextJS" /> Next.js</li>
+                    <li><img src={"/src/assets/Expressjs-logo.png"} alt="ExpressJS" /> Express.js</li>
                     <li><img src={"/src/assets/flask-logo.png"} alt="Flask" /> Flask</li>
                     <li><img src={"src/assets/three-js-icon.svg"} alt="Three.js" /> Three.js</li>
                     <li><img src={"/src/assets/framer-logo.svg"} alt="Framer Motion" style={{height:'45px'}} /> Framer Motion</li>
-                    <li><img src={"/src/assets/gsap-greensock-logo.svg"} alt="GSAP" /></li>
+                    <li><img src={"/src/assets/gsap-greensock-logo.svg"} alt="GSAP" /> GSAP</li>
                 </ul>
             </div>
 
