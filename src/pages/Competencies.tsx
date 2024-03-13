@@ -128,7 +128,7 @@ export default function Competencies () {
              </div>
                   <br />
             <div className="competencies__category">
-            <div className="competencies__category--label"><Reveal><h3>Frameworks and Libraries</h3></Reveal></div>
+                <div className="competencies__category--label"><Reveal><h3>Frameworks and Libraries</h3></Reveal></div>
 
                  <Accordion className="competencies__accordion--item  "sx={{ 
                         backgroundColor: "rgba(195, 196, 197, 0.466)",
@@ -293,8 +293,8 @@ export default function Competencies () {
                     <img src={"src/assets/html-example.gif"} alt="Flask" />
                     </AccordionDetails> */}
                 {/* </Accordion> */}
-            <div className="listblock">
-                <ul className="list">
+            <div className="competencies__framework--block">
+                <ul className="competencies__framework--list">
                     <li><img src={"src/assets/jquery-logo.png"} alt="Jquery" /> jQuery</li>
                     <li><img src={"src/assets/nodejs-1-logo.png"} alt="NodeJS" /> Nodejs</li>
                     <li><img src={"/src/assets/nextjs-logo.png"} alt="NextJS" /> Nextjs</li>
