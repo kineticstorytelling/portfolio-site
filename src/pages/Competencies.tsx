@@ -171,7 +171,7 @@ export default function Competencies () {
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>Bootstrap</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
-                    <img src={"src/assets/javascript-example.gif"} alt="Bootstrap" />
+                    <img src={"/src/assets/bootstrap_ex.gif"} alt="Bootstrap" />
                     </AccordionDetails>
                 </Accordion>
 
@@ -216,7 +216,7 @@ export default function Competencies () {
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>MongoDB</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
-                    <img src={"src/assets/javascript-example.gif"} alt="Mongodb" />
+                    <img src={"/src/assets/mongo_ex.gif"} alt="Mongodb" />
                     </AccordionDetails>
                 </Accordion>
 
