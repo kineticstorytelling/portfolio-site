@@ -79,8 +79,7 @@
 .MuiAccordion-root.Mui-expanded{
   left: 20%;
   background-color: rgba(195, 196, 197, 0.466);
-    box-shadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px;
-    // border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px;
 
 }
 
@@ -114,7 +113,6 @@
     transition: all .4s ease;
     // content: "\f107";
     position: absolute;
-    // left: 70%;
   }
 
 @media only screen and (max-width: 600px){
@@ -135,7 +133,7 @@
   .competencies{
     height: 250vh;
   }
-  // from here on down, I don't know if it works
+  // 
   .competencies__accordion{
     width: 50vw;
   }

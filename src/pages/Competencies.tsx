@@ -220,79 +220,7 @@ export default function Competencies () {
                     </AccordionDetails>
                 </Accordion>
 
-                {/* <Accordion className="competencies__accordion--item  "sx={{ 
-                        backgroundColor: "rgba(195, 196, 197, 0.466)",
-                        boxShadow: 3
-                    }} >
-                    <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
-                        <ExpandMoreIcon />
-                    }>
-                        <img src={"src/assets/nodejs-1-logo.png"} alt="NodeJS" />
-                        <Typography className="competencies__accordion--header competencies__accordion"><h4>NodeJS</h4></Typography>
-                    </AccordionSummary>
-                    <AccordionDetails >
-                    <img src={"src/assets/html-example.gif"} alt="NodeJS" />
-                    </AccordionDetails>
-                </Accordion>
 
-                <Accordion className="competencies__accordion--item  "sx={{ 
-                        backgroundColor: "rgba(195, 196, 197, 0.466)",
-                        boxShadow: 3
-                    }} >
-                    <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
-                        <ExpandMoreIcon />
-                    }>
-                        <img src={"/src/assets/nextjs-logo.png"} alt="NextJS" />
-                        <Typography className="competencies__accordion--header competencies__accordion"><h4>NextJS</h4></Typography>
-                    </AccordionSummary>
-                    <AccordionDetails >
-                    <img src={"src/assets/html-example.gif"} alt="NextJS" />
-                    </AccordionDetails>
-                </Accordion>
-
-                <Accordion className="competencies__accordion--item  "sx={{ 
-                        backgroundColor: "rgba(195, 196, 197, 0.466)",
-                        boxShadow: 3
-                    }} >
-                    <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
-                        <ExpandMoreIcon />
-                    }>
-                        <img src={"/src/assets/framer-logo.svg"} alt="Framer Motion" />
-                        <Typography className="competencies__accordion--header competencies__accordion"><h4>Framer Motion</h4></Typography>
-                    </AccordionSummary>
-                    <AccordionDetails >
-                    <img src={"src/assets/html-example.gif"} alt="Framer Motion" />
-                    </AccordionDetails>
-                </Accordion>
-                <Accordion className="competencies__accordion--item  "sx={{ 
-                        backgroundColor: "rgba(195, 196, 197, 0.466)",
-                        boxShadow: 3
-                    }} >
-                    <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
-                        <ExpandMoreIcon />
-                    }>
-                        <img src={"src/assets/three-js-icon.svg"} alt="Three.js" />
-                        <Typography className="competencies__accordion--header competencies__accordion"><h4>Three.js</h4></Typography>
-                    </AccordionSummary>
-                    <AccordionDetails >
-                    <img src={"src/assets/html-example.gif"} alt="NextJS" />
-                    </AccordionDetails>
-                </Accordion>
-
-                <Accordion className="competencies__accordion--item  "sx={{ 
-                        backgroundColor: "rgba(195, 196, 197, 0.466)",
-                        boxShadow: 3
-                    }} >
-                    <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
-                        <ExpandMoreIcon />
-                    }>
-                        <img src={"/src/assets/flask-logo.png"} alt="Flask" />
-                        <Typography className="competencies__accordion--header competencies__accordion"><h4>Flask</h4></Typography>
-                    </AccordionSummary>
-                    <AccordionDetails >
-                    <img src={"src/assets/html-example.gif"} alt="Flask" />
-                    </AccordionDetails> */}
-                {/* </Accordion> */}
             <div className="competencies__framework--block">
                 <ul className="competencies__framework--list">
                     <li><img src={"src/assets/jquery-logo.png"} alt="Jquery" /> jQuery</li>
@@ -305,37 +233,6 @@ export default function Competencies () {
                     <li><img src={"/src/assets/gsap-greensock-logo.svg"} alt="GSAP" style={{height:'45px'}} /> GSAP</li>
                 </ul>
             </div>
-
-                {/* <Accordion className="competencies__accordion--item  "sx={{ 
-                        backgroundColor: "rgba(195, 196, 197, 0.466)",
-                        boxShadow: 3
-                    }} >
-                    <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
-                        <ExpandMoreIcon />
-                    }>
-                        <img src={"/src/assets/Expressjs-logo.png"} alt="ExpressJS" />
-                        <Typography className="competencies__accordion--header competencies__accordion"><h4>ExpressJS</h4></Typography>
-                    </AccordionSummary>
-                    <AccordionDetails >
-                    <img src={"src/assets/html-example.gif"} alt="ExpressJS" />
-                    </AccordionDetails>
-                </Accordion> */}
-
-                {/* <Accordion className="competencies__accordion--item  "sx={{ 
-                        backgroundColor: "rgba(195, 196, 197, 0.466)",
-                        boxShadow: 3
-                      }} >
-                    <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
-                        <ExpandMoreIcon />
-                    }>
-                        <img src={"src/assets/jquery-logo.png"} alt="Jquery" />
-                        <Typography className="competencies__accordion--header competencies__accordion"><h4>jQuery</h4></Typography>
-                    </AccordionSummary>
-                    <AccordionDetails >
-                    <img src={"src/assets/javascript-example.gif"} alt="jquery" />
-                    </AccordionDetails>
-                </Accordion> */}
-
 
                 <br />
 
