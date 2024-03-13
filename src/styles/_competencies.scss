@@ -38,21 +38,21 @@
     // left: 70%;
 }
 
-.listblock{
+.competencies__framework--block{
   margin: auto;
 }
-.list{
+.competencies__framework--list{
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 5% 20%;
 }
-.list li{
+.competencies__framework--list li{
   padding: 20px;
   font-weight: 600;
   background-color: #1f1f1f0e;
   text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288); 
 }
-.list li img{
+.competencies__framework--list li img{
   margin: 0 0 -20px 0;
   height: 60px;
   width: 60px;
