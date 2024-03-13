@@ -47,7 +47,7 @@ export default function Competencies () {
                             <Typography className="competencies__accordion--header competencies__accordion"><h4>CSS</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails >
-                        <img src={"/src/assets/"} alt="CSS" />
+                        <img src={"/src/assets/css_ex.gif"} alt="CSS" />
                         </AccordionDetails>
                     </Accordion>
 
