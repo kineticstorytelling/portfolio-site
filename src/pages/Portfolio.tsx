@@ -35,7 +35,7 @@ const Portfolio = () => {
 
                         <div className="portfolio__body project__content1--image">
                             <a href="https://jehlyo.netlify.app/">
-                                <img src="/src/assets/Jehlyo Design Page.png" alt="Jehlyo Design Image" />
+                                <img src="/Jehlyo Design Page.png" alt="Jehlyo Design Image" />
                             </a>
                         </div>
                     
@@ -62,7 +62,7 @@ const Portfolio = () => {
                         
                         <div className="portfolio_body project__content2--image">
                             <a href="https://sparkling-mooncake-6a5cd8.netlify.app/#/">
-                                <img src="/src/assets/Soul Soju Design.png" alt="Soul Soju Web Page Designs" />
+                                <img src="/Soul Soju Design.png" alt="Soul Soju Web Page Designs" />
                             </a>
                         </div>
                 
@@ -89,7 +89,7 @@ const Portfolio = () => {
                         
                         <div className="portfolio_body project__content3--image">
                             <a href="https://emergenthealing.com">
-                                <img src="/src/assets/Emergent Healing Design.png" alt="Emergent Healing Design" />
+                                <img src="/Emergent Healing Design.png" alt="Emergent Healing Design" />
                             </a>
                         </div>
                 </div>

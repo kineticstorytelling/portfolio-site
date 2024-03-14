@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'brushStrike';
-    src: url(src/assets/Brushstrike.ttf);
+    src: url('/Brushstrike.ttf') format('truetype');
 }
 
 :root{

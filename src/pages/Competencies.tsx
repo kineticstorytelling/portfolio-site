@@ -27,11 +27,11 @@ export default function Competencies () {
                         <AccordionSummary id="panel1-header" className="competencies__accordion--header" expandIcon={
                             <ExpandMoreIcon />
                         }>
-                            <img src={"src/assets/htmllogo.png"} alt="html" />
+                            <img src={"/htmllogo.png"} alt="html" />
                             <Typography className="competencies__accordion competencies__accordion--header"><h4>HTML</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails >
-                            <img src={"/src/assets/Html_ex.gif"} alt="HTML" />
+                            <img src={"/Html_ex.gif"} alt="HTML" />
                         </AccordionDetails>
                     </Accordion> 
 
@@ -43,11 +43,11 @@ export default function Competencies () {
                         <AccordionSummary id="panel1-header" className="competencies__accordion--header" expandIcon={
                             <ExpandMoreIcon />
                         }>
-                            <img src={"/src/assets/CSS.3.svg"} alt="CSS" />
+                            <img src={"/CSS.3.svg"} alt="CSS" />
                             <Typography className="competencies__accordion--header competencies__accordion"><h4>CSS</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails >
-                        <img src={"/src/assets/css_ex.gif"} alt="CSS" />
+                        <img src={"/css_ex.gif"} alt="CSS" />
                         </AccordionDetails>
                     </Accordion>
 
@@ -58,11 +58,11 @@ export default function Competencies () {
                         <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                             <ExpandMoreIcon />
                         }>
-                            <img src={"src/assets/JavaScript-logo.png"} alt="Javascript" />
+                            <img src={"/JavaScript-logo.png"} alt="Javascript" />
                             <Typography className="competencies__accordion--header competencies__accordion"><h4>Javascript</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails >
-                        <img src={"/src/assets/javascript-example.gif"} alt="Javascript" />
+                        <img src={"/javascript-example.gif"} alt="Javascript" />
                         </AccordionDetails>
                     </Accordion>
                     
@@ -73,11 +73,11 @@ export default function Competencies () {
                         <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                             <ExpandMoreIcon />
                         }>
-                            <img src={"src/assets/Typescript_logo_2020.svg.png"} alt="typescript" />
+                            <img src={"/Typescript_logo_2020.svg.png"} alt="typescript" />
                             <Typography className="competencies__accordion--header competencies__accordion"><h4>Typescript</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails >
-                        <img src={"src/assets/javascript-example.gif"} alt="typescript" />
+                        <img src={"/javascript-example.gif"} alt="typescript" />
                         </AccordionDetails>
                     </Accordion>
 
@@ -88,11 +88,11 @@ export default function Competencies () {
                         <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                             <ExpandMoreIcon />
                         }>
-                            <img src={"src/assets/pythonlogo1.png"} alt="Python" />
+                            <img src={"/pythonlogo1.png"} alt="Python" />
                             <Typography className="competencies__accordion--header competencies__accordion"><h4>Python</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                        <img src={"src/assets/Python_Example.gif"} alt="Python" />
+                        <img src={"/Python_Example.gif"} alt="Python" />
                         </AccordionDetails>
                     </Accordion>
 
@@ -103,11 +103,11 @@ export default function Competencies () {
                         <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                             <ExpandMoreIcon />
                         }>
-                            <img src={"src/assets/phplogo.png"} alt="PHP" />
+                            <img src={"/phplogo.png"} alt="PHP" />
                             <Typography className="competencies__accordion--header competencies__accordion"><h4>PHP</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails >
-                        <img src={"/src/assets/Php_ex.gif"} alt="PHP" />
+                        <img src={"/Php_ex.gif"} alt="PHP" />
                         </AccordionDetails>
                     </Accordion>
                     
@@ -118,11 +118,11 @@ export default function Competencies () {
                         <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                             <ExpandMoreIcon />
                         }>
-                            <img src={"/src/assets/Shopify-Liquid-ProgLang.3a0ce20917834e52e635.png"} alt="Liquid" />
+                            <img src={"//Shopify-Liquid-ProgLang.3a0ce20917834e52e635.png"} alt="Liquid" />
                             <Typography className="competencies__accordion--header competencies__accordion"><h4>Liquid</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails >
-                        <img src={"src/assets/javascript-example.gif"} alt="Liquid" />
+                        <img src={"/javascript-example.gif"} alt="Liquid" />
                         </AccordionDetails>
                     </Accordion>  */}
              </div>
@@ -137,11 +137,11 @@ export default function Competencies () {
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
-                        <img src={"src/assets/react-logo.png"} className = "competencies__accordion-header-img" alt="React" />
+                        <img src={"/react-logo.png"} className = "competencies__accordion-header-img" alt="React" />
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>React + React Native</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
-                    <img src={"src/assets/react-example.gif"} alt="React" />
+                    <img src={"/react-example.gif"} alt="React" />
                     </AccordionDetails>
                 </Accordion>                        
 
@@ -152,11 +152,11 @@ export default function Competencies () {
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
-                        <img src={"src/assets/Sass_Logo_Color.svg"} alt="SASS" />
+                        <img src={"/Sass_Logo_Color.svg"} alt="SASS" />
                         <Typography className="competencies__accordion--header competencies__accordion-"><h4>SASS</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
-                    <img src={"src/assets/sass-example.gif"} alt="SASS" />
+                    <img src={"/sass-example.gif"} alt="SASS" />
                     </AccordionDetails>
                 </Accordion>
                     
@@ -167,11 +167,11 @@ export default function Competencies () {
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
-                        <img src={"src/assets/bootstrap-logo.svg"} alt="Bootstrap" />
+                        <img src={"/bootstrap-logo.svg"} alt="Bootstrap" />
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>Bootstrap</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
-                    <img src={"/src/assets/bootstrap_ex.gif"} alt="Bootstrap" />
+                    <img src={"/bootstrap_ex.gif"} alt="Bootstrap" />
                     </AccordionDetails>
                 </Accordion>
 
@@ -182,11 +182,11 @@ export default function Competencies () {
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
-                        <img src={"src/assets/tailwind-logo.png"} alt="tailwind" />
+                        <img src={"/tailwind-logo.png"} alt="tailwind" />
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>TailwindCSS</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
-                    <img src={"/src/assets/Tailwind_ex.gif"} alt="tailwind" />
+                    <img src={"/Tailwind_ex.gif"} alt="tailwind" />
                     </AccordionDetails>
                 </Accordion>
 
@@ -197,11 +197,11 @@ export default function Competencies () {
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
-                        <img src={"src/assets/Postgresql_elephant.svg.png"} alt="PostgreSQL" />
+                        <img src={"/Postgresql_elephant.svg.png"} alt="PostgreSQL" />
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>PostgreSQL</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
-                    <img src={"/src/assets/Postgresql_ex.gif"} alt="PostgreSQL" />
+                    <img src={"/Postgresql_ex.gif"} alt="PostgreSQL" />
                     </AccordionDetails>
                 </Accordion>
 
@@ -212,25 +212,25 @@ export default function Competencies () {
                     <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                         <ExpandMoreIcon />
                     }>
-                        <img src={"src/assets/mongodb-logo.png"} alt="Mongodb" />
+                        <img src={"/mongodb-logo.png"} alt="Mongodb" />
                         <Typography className="competencies__accordion--header competencies__accordion"><h4>MongoDB</h4></Typography>
                     </AccordionSummary>
                     <AccordionDetails >
-                    <img src={"/src/assets/mongo_ex.gif"} alt="Mongodb" />
+                    <img src={"/mongo_ex.gif"} alt="Mongodb" />
                     </AccordionDetails>
                 </Accordion>
 
 
             <div className="competencies__framework--block">
                 <ul className="competencies__framework--list">
-                    <li><img src={"src/assets/jquery-logo.png"} alt="Jquery" /> jQuery</li>
-                    <li><img src={"src/assets/nodejs-1-logo.png"} alt="NodeJS" /> Node.js</li>
-                    <li><img src={"/src/assets/nextjs-logo.png"} alt="NextJS" /> Next.js</li>
-                    <li><img src={"/src/assets/Expressjs-logo.png"} alt="ExpressJS" /> Express.js</li>
-                    <li><img src={"/src/assets/flask-logo.png"} alt="Flask" /> Flask</li>
-                    <li><img src={"src/assets/three-js-icon.svg"} alt="Three.js" /> Three.js</li>
-                    <li><img src={"/src/assets/framer-logo.svg"} alt="Framer Motion" style={{height:'45px'}} /> Framer Motion</li>
-                    <li><img src={"/src/assets/gsap-greensock-logo.svg"} alt="GSAP" style={{height:'45px'}} /> GSAP</li>
+                    <li><img src={"/jquery-logo.png"} alt="Jquery" /> jQuery</li>
+                    <li><img src={"/nodejs-1-logo.png"} alt="NodeJS" /> Node.js</li>
+                    <li><img src={"/nextjs-logo.png"} alt="NextJS" /> Next.js</li>
+                    <li><img src={"/Expressjs-logo.png"} alt="ExpressJS" /> Express.js</li>
+                    <li><img src={"/flask-logo.png"} alt="Flask" /> Flask</li>
+                    <li><img src={"/three-js-icon.svg"} alt="Three.js" /> Three.js</li>
+                    <li><img src={"/framer-logo.svg"} alt="Framer Motion" style={{height:'45px'}} /> Framer Motion</li>
+                    <li><img src={"/gsap-greensock-logo.svg"} alt="GSAP" style={{height:'45px'}} /> GSAP</li>
                 </ul>
             </div>
 
@@ -245,11 +245,11 @@ export default function Competencies () {
                       <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
-                          <img src={"src/assets/WordPress_blue_logo.png"} alt="Wordpress" />
+                          <img src={"/WordPress_blue_logo.png"} alt="Wordpress" />
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Wordpress</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"/src/assets/Wordpress_ex.gif"} alt="Wordpress" />
+                      <img src={"/Wordpress_ex.gif"} alt="Wordpress" />
                       </AccordionDetails>
                 </Accordion>
                  
@@ -260,11 +260,11 @@ export default function Competencies () {
                       <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
-                          <img src={"src/assets/Shopify-logo.png"} alt="Shopify" />
+                          <img src={"/Shopify-logo.png"} alt="Shopify" />
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Shopify</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"/src/assets/Shopify_ex.gif"} alt="Shopify" />
+                      <img src={"/Shopify_ex.gif"} alt="Shopify" />
                       </AccordionDetails>
                 </Accordion>
               
@@ -275,11 +275,11 @@ export default function Competencies () {
                       <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
-                          <img src={"src/assets/hubspot-logo.png"} alt="Hubspot" />
+                          <img src={"/hubspot-logo.png"} alt="Hubspot" />
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Hubspot</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"/src/assets/Hubspot_ex.gif"} alt="Hubspot" />
+                      <img src={"/Hubspot_ex.gif"} alt="Hubspot" />
                       </AccordionDetails>
                 </Accordion>
 
@@ -290,11 +290,11 @@ export default function Competencies () {
                       <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
-                          <img src={"src/assets/Webflow-logo.png"} alt="Webflow" />
+                          <img src={"/Webflow-logo.png"} alt="Webflow" />
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Webflow</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"/src/assets/Webflow_ex.gif"} alt="Webflow" />
+                      <img src={"/Webflow_ex.gif"} alt="Webflow" />
                       </AccordionDetails>
                 </Accordion>
 
@@ -305,11 +305,11 @@ export default function Competencies () {
                       <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
-                          <img src={"src/assets/elementor.svg"} alt="Elementor" />
+                          <img src={"/elementor.svg"} alt="Elementor" />
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Elementor</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"src/assets/elementor-example.gif"} alt="Elementor" />
+                      <img src={"/elementor-example.gif"} alt="Elementor" />
                       </AccordionDetails>
                 </Accordion>
               
@@ -320,11 +320,11 @@ export default function Competencies () {
                       <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
-                          <img src={"src/assets/Figma-logo.svg"} alt="Figma" />
+                          <img src={"/Figma-logo.svg"} alt="Figma" />
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Figma</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"src/assets/figma-example.gif"} alt="Figma" />
+                      <img src={"/figma-example.gif"} alt="Figma" />
                       </AccordionDetails>
                 </Accordion>
               
@@ -335,11 +335,11 @@ export default function Competencies () {
                       <AccordionSummary id='panel1-header' className="competencies__accordion--header" expandIcon={
                           <ExpandMoreIcon />
                       }>
-                          <img src={"src/assets/Adobe_XD_CC_icon.svg"} alt="Adobexd" />
+                          <img src={"/Adobe_XD_CC_icon.svg"} alt="Adobexd" />
                           <Typography className="competencies__accordion--header competencies__accordion"><h4>Adobe XD</h4></Typography>
                       </AccordionSummary>
                       <AccordionDetails >
-                      <img src={"/src/assets/Adobe_XD_ex.gif"} alt="Adobexd" />
+                      <img src={"/Adobe_XD_ex.gif"} alt="Adobexd" />
                       </AccordionDetails>
                 </Accordion>
               

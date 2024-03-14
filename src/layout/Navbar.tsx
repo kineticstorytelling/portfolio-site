@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
         <header>
             <button className="logo__btn">
-                <img src="/src/assets/mylogo.png" alt="my logo" className="logo" />
+                <img src="/mylogo.png" alt="my logo" className="logo" />
             </button>
             <h3 className="touch__logo">Click the Logo!</h3>
 
