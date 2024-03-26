@@ -42,7 +42,7 @@ const Social = () => {
 
         <div className="button">
             <div className="icon">
-                <a href="https://medium.com/@kineticstorytelling"><FontAwesomeIcon icon={faHashnode} /></a>
+                <a href="https://hashnode.com/@kineticstorytelling"><FontAwesomeIcon icon={faHashnode} /></a>
             </div>  
             <span>Hashnode</span>
         </div>
