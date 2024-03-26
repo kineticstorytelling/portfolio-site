@@ -12,7 +12,7 @@ const Footers = () => {
           <li className="social-list__item"><a href="https://github.com/kineticstorytelling" className="social-list__link"> <FontAwesomeIcon icon={faGithub} /></a></li>
           <li className="social-list__item"><a href="https://www.instagram.com/lukasnam/" className="social-list__link"> <FontAwesomeIcon icon={faInstagram} /></a></li>
           <li className="social-list__item"><a href="https://dribbble.com/kineticstorytelling" className="social-list__link"> <FontAwesomeIcon icon={faDribbble} /></a></li>
-          <li className="social-list__item"><a href="https://www.linkedin.com/in/luke-nam-ab520369/" className="social-list__link"> <FontAwesomeIcon icon={faLinkedin} /></a></li>
+          <li className="social-list__item"><a href="https://www.linkedin.com/in/~luke/" className="social-list__link"> <FontAwesomeIcon icon={faLinkedin} /></a></li>
           <li className="social-list__item"><a href="https://medium.com/@kineticstorytelling" className="social-list__link"> <FontAwesomeIcon icon={faMedium} /></a></li>
           <li className="social-list__item"><a href="https://twitter.com/Luke__nam" className="social-list__link"> <FontAwesomeIcon icon={faTwitter} /></a></li>
       </ul>
