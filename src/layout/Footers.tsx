@@ -2,7 +2,7 @@ import '../styles/_footer.scss';
 import '../styles/_buttons.scss'; 
 import '../styles/_social.scss'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faTwitter, faInstagram, faGithub, faMedium, faDribbble } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faTwitter, faInstagram, faGithub, faMedium, faDribbble, faHashnode } from "@fortawesome/free-brands-svg-icons";
 
 const Footers = () => {
     return (
