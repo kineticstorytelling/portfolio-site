@@ -21,7 +21,6 @@ function App() {
           <div className="content">
           <Hero />
           <Services />
-          {/* <Test /> */}
           <Competencies />
           <Portfolio />
           <Contacts />
